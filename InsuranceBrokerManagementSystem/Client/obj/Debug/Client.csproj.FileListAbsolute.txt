@@ -1,0 +1,14 @@
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Client\bin\Debug\Client.exe.config
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Client\bin\Debug\Client.exe
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Client\bin\Debug\Client.pdb
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Client\bin\Debug\Data.dll
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Client\bin\Debug\EntityFramework.dll
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Client\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Client\bin\Debug\Models.dll
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Client\bin\Debug\Data.pdb
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Client\bin\Debug\Models.pdb
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Client\bin\Debug\EntityFramework.xml
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Client\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Client\obj\Debug\Client.exe
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Client\obj\Debug\Client.pdb
