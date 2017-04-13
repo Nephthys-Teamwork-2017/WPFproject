@@ -1,0 +1,12 @@
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\Data.dll.config
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\Data.dll
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\Data.pdb
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\EntityFramework.dll
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\Models.dll
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\Models.pdb
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\EntityFramework.xml
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\obj\Debug\Data.dll
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\obj\Debug\Data.pdb
