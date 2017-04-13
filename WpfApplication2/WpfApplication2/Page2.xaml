@@ -13,11 +13,36 @@
     <Page.Resources>
         <DataTemplate DataType="{x:Type data:Client}">
             <TextBlock Text="{Binding Name}"/>
+         
         </DataTemplate>    
     </Page.Resources>
 
     
-        <ListView x:Name="listView" ItemsSource="{Binding}" />
+        <ListView x:Name="listView" ItemsSource="{Binding}" >
+        <ListView.View>
+            <GridView>
+                
+
+                <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}"  />
+                   <GridViewColumn Header="Edit" >
+                    <GridViewColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Edit"   CommandParameter="{Binding}"/>
+                        </DataTemplate>
+                    </GridViewColumn.CellTemplate>
+                </GridViewColumn>
+                <GridViewColumn Header="Delete" >
+                    <GridViewColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Delete"   CommandParameter="{Binding}"/>
+                        </DataTemplate>
+                    </GridViewColumn.CellTemplate>
+                </GridViewColumn>
+
+            </GridView>
+        </ListView.View>
+        
+        </ListView>
          
 
  
