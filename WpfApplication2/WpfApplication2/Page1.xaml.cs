@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Models;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -13,8 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WpfApplication2.Data;
-using WpfApplication2.Models;
+using Data; 
 
 namespace WpfApplication2
 {
@@ -30,20 +30,20 @@ namespace WpfApplication2
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            using (var context = new DatabaseContext())
+            using (var context = new BrokerDbContext())
             {
-                Client client = new Client()
+                Customer customer = new Customer()
                 {
                     Name = textBox.Text,
                     Address = textBox1.Text,
                     Phone=textBox2.Text,
                     Email=textBox3.Text,
                     Notes=textBox4.Text,
-                    StatePersonalNumber=textBox5.Text
+                   // StatePersonalNumber=textBox5.Text
                      
                 };
 
-                context.Clients.Add(client);
+                context.Customers.Add(customer);
                 context.SaveChanges();
 
                 MessageBox.Show("new Client Added!");

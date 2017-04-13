@@ -4,14 +4,14 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WpfApplication2"
-      xmlns:data="clr-namespace:WpfApplication2.Models"
-      xmlns:Models="clr-namespace:WpfApplication2.Models" x:Class="WpfApplication2.Page2"
+      xmlns:data="clr-namespace:Models;assembly=Models"
+      xmlns:Models="clr-namespace:Models;assembly=Models" x:Class="WpfApplication2.Page2"
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
       Title="Page2">
 
     <Page.Resources>
-        <DataTemplate DataType="{x:Type data:Client}">
+        <DataTemplate DataType="{x:Type data:Customer }">
             <TextBlock Text="{Binding Name}"/>
          
         </DataTemplate>    

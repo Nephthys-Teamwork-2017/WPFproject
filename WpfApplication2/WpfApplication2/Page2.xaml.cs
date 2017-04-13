@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WpfApplication2.Data;
+using Models;
 
 namespace WpfApplication2
 {
@@ -24,10 +25,11 @@ namespace WpfApplication2
         public Page2()
         {
             InitializeComponent();
-            using (var context = new DatabaseContext())
+            using (var context = new BrokerDbContext())
+
             {
-                this.DataContext = context.Clients.ToList();
-              
+                this.DataContext = context.Customers.ToList();
+
             }
         }
     }
