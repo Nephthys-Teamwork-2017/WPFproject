@@ -16,6 +16,14 @@
                     <Separator />
                     <MenuItem Header="_Exit" />
                 </MenuItem>
+
+                <MenuItem Header="_Policies">
+                    <MenuItem Header="_Add New Policy" Click="mnuNewPolicy" />
+                    <Separator />
+                    <MenuItem Header="_Exit" />
+                </MenuItem>
+
+
             </Menu>
             <TextBox AcceptsReturn="True" />
         </DockPanel>

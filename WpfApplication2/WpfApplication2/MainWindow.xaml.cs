@@ -50,5 +50,12 @@ namespace WpfApplication2
             Page2 p2 = new Page2();
             frame.NavigationService.Navigate(p2);
         }
+
+        private void mnuNewPolicy(object sender, RoutedEventArgs e)
+        {
+            PolicyPage policyPage = new PolicyPage();
+            frame.NavigationService.Navigate(policyPage);
+        }
+
     }
 }
