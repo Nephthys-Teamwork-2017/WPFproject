@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Data;
+using Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,11 +22,19 @@ namespace WpfApplication2
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        public static List<Customer> CustomerList = new List<Customer>();
         public MainWindow()
         {
             InitializeComponent();
             //Page1 p = new Page1();
             //frame.NavigationService.Navigate(p);
+
+            using (var context = new BrokerDbContext())
+            {
+                CustomerList = context.Customers.ToList();
+            }
+
         }
 
        
