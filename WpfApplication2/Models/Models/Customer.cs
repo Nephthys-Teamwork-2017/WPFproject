@@ -19,5 +19,10 @@ namespace Models
         public string Email { get; set; }
         public string Notes { get; set; }
         public virtual ICollection<Policy> Policies { get; set; }
+
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }

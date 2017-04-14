@@ -10,12 +10,7 @@
       d:DesignHeight="300" d:DesignWidth="300"
       Title="Page2">
 
-    <Page.Resources>
-        <DataTemplate DataType="{x:Type data:Customer }">
-            <TextBlock Text="{Binding Name}"/>
-         
-        </DataTemplate>    
-    </Page.Resources>
+     
 
     
         <ListView x:Name="listView" ItemsSource="{Binding}" >
@@ -23,18 +18,18 @@
             <GridView>
                 
 
-                <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}"  />
+                <GridViewColumn Header="Name"   DisplayMemberBinding="{Binding Name}"  />
                    <GridViewColumn Header="Edit" >
                     <GridViewColumn.CellTemplate>
                         <DataTemplate>
-                            <Button Content="Edit"   CommandParameter="{Binding}"/>
+                            <Button Content="Edit"  />
                         </DataTemplate>
                     </GridViewColumn.CellTemplate>
                 </GridViewColumn>
                 <GridViewColumn Header="Delete" >
                     <GridViewColumn.CellTemplate>
                         <DataTemplate>
-                            <Button Content="Delete"   CommandParameter="{Binding}"/>
+                            <Button Content="Delete"  />
                         </DataTemplate>
                     </GridViewColumn.CellTemplate>
                 </GridViewColumn>

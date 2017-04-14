@@ -10,18 +10,6 @@ c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagement
 c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
 c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\obj\Debug\Data.dll
 c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\obj\Debug\Data.pdb
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\Data.dll.config
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\Data.dll
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\Data.pdb
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.dll
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\Models.dll
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\Models.pdb
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.xml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\obj\Debug\Data.dll
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\obj\Debug\Data.pdb
 C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\bin\Debug\Data.dll.config
 C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\bin\Debug\Data.dll
 C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\bin\Debug\Data.pdb
@@ -34,3 +22,15 @@ C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\bin\Debug
 C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
 C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\obj\Debug\Data.dll
 C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\obj\Debug\Data.pdb
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\Data.dll.config
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\Data.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\Data.pdb
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\Models.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\Models.pdb
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\obj\Debug\Data.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\obj\Debug\Data.pdb

@@ -28,8 +28,8 @@ namespace WpfApplication2
             using (var context = new BrokerDbContext())
 
             {
-                //this.DataContext = context.Customers.ToList();
-                this.DataContext = MainWindow.CustomerList;
+                this.DataContext = context.Customers.ToList();
+               
             }
         }
     }

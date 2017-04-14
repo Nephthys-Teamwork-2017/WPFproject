@@ -12,7 +12,7 @@
                 <MenuItem Header="_Clients">
                     <MenuItem Header="_Add New Client" Click="mnuNewClient" />
                     <MenuItem Header="_View All Clients" Click="mnuViewClient" />
-
+                    <MenuItem Header="_Search Client By Name" Click="mnuSearchByName" />
                     <Separator />
                     <MenuItem Header="_Exit" />
                 </MenuItem>

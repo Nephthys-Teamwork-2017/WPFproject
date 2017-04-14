@@ -23,17 +23,11 @@ namespace WpfApplication2
     public partial class MainWindow : Window
     {
 
-        public static List<Customer> CustomerList = new List<Customer>();
+       
         public MainWindow()
         {
             InitializeComponent();
-            //Page1 p = new Page1();
-            //frame.NavigationService.Navigate(p);
-
-            using (var context = new BrokerDbContext())
-            {
-                CustomerList = context.Customers.ToList();
-            }
+           
 
         }
 
@@ -57,5 +51,10 @@ namespace WpfApplication2
             frame.NavigationService.Navigate(policyPage);
         }
 
+        private void mnuSearchByName(object sender, RoutedEventArgs e)
+        {
+            ClientNameSearchExample searchClientPage = new ClientNameSearchExample();
+            frame.NavigationService.Navigate(searchClientPage);
+        }
     }
 }
