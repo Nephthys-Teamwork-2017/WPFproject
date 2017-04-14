@@ -9,7 +9,7 @@ namespace Models
     public class Blank
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string Number{ get; set; }
         public string Status { get; set; }
         public DateTime TakenDate { get; set; }
         public DateTime IssueDate { get; set; }

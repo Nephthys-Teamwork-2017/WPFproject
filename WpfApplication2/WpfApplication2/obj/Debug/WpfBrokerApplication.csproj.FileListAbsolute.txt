@@ -27,3 +27,16 @@ C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\De
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfBrokerApplication.csproj.GenerateResource.Cache
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PolicyPage.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PolicyPage.baml
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfBrokerApplication.csprojResolveAssemblyReference.cache
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\BlanksPage.g.cs
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page1.g.cs
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page2.g.cs
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PaymentsPage.g.cs
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PolicyPage.g.cs
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.lref
