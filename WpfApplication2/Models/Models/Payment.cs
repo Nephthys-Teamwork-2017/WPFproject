@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +10,8 @@ namespace Models
 {
     public class Payment
     {
+        [Key]
+        [ForeignKey("Blank")]
         public int Id { get; set; }
         public DateTime DateOfPayment { get; set; }
         public DateTime DueDate { get; set; }
@@ -17,9 +21,17 @@ namespace Models
         public decimal FinalPrice { get; set; }
         public string Status { get; set; }
         public virtual int AgentId { get; set; }
+        public Agent Agent { get; set; }
+
+        public int PolicyId { get; set; }
+
+        public Policy Policy { get; set; }
+
+        public Blank Blank { get; set; }
         public virtual int CompanyId { get; set; }
-        public virtual ICollection<Blank> Blanks { get; set; }
-        public virtual ICollection<Policy> Policies { get; set; }
+        public Company Company { get; set; }
+
+        public virtual Income Income { get; set; }
 
 
     }

@@ -8,15 +8,32 @@ namespace Models
 {
     public class Blank
     {
+
+
+
         public int Id { get; set; }
-        public string Number{ get; set; }
+        public string Number { get; set; }
         public string Status { get; set; }
         public DateTime TakenDate { get; set; }
         public DateTime IssueDate { get; set; }
+
         public virtual int ProductId { get; set; }
+
+        public Product Product { get; set; }
+
         public virtual int AgentId { get; set; }
-        public virtual int PolicyId { get; set; }
+
+        public Agent Agent { get; set; }
+
         public virtual int CompanyId { get; set; }
+        public Company Company { get; set; }
+
+        public virtual Policy Policy { get; set; }
+
+
+        public virtual Payment Payment { get; set; }
+
+
 
     }
 }

@@ -34,3 +34,15 @@ C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\EntityF
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\obj\Debug\Data.dll
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\obj\Debug\Data.pdb
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\Data.dll.config
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\Data.dll
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\Data.pdb
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.dll
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\Models.dll
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\Models.pdb
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.xml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\obj\Debug\Data.dll
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\obj\Debug\Data.pdb

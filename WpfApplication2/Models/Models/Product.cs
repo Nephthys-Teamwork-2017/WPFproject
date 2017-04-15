@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Models.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,18 +11,21 @@ namespace Models
     {
         public Product()
         {
-            this.Companies = new HashSet<Company>();
-            this.Agents = new HashSet<Agent>();
+
+            this.CompaniesProdCom = new HashSet<CompanyProdCom>();
             this.Policies = new HashSet<Policy>();
             this.Blanks = new HashSet<Blank>();
+            this.AgentsProdCom = new HashSet<AgentProdCom>();
+            this.Incomes = new HashSet<Income>();
         }
         public int Id { get; set; }
         public string Code { get; set; }
         public string Name { get; set; }
-        public virtual ICollection<Company> Companies { get; set; }
-        public virtual ICollection<Agent> Agents { get; set; }
+        public virtual ICollection<AgentProdCom> AgentsProdCom { get; set; }
         public virtual ICollection<Policy> Policies { get; set; }
         public virtual ICollection<Blank> Blanks { get; set; }
-        public virtual int IncomeId { get; set; }
+        public virtual ICollection<Income> Incomes { get; set; }
+        public virtual ICollection<CompanyProdCom> CompaniesProdCom { get; set; }
+
     }
 }
