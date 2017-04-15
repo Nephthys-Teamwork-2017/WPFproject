@@ -17,15 +17,15 @@ namespace Models
         public DateTime TakenDate { get; set; }
         public DateTime IssueDate { get; set; }
 
-        public virtual int ProductId { get; set; }
+        public int ProductId { get; set; }
 
         public Product Product { get; set; }
 
-        public virtual int AgentId { get; set; }
+        public int AgentId { get; set; }
 
         public Agent Agent { get; set; }
 
-        public virtual int CompanyId { get; set; }
+        public int CompanyId { get; set; }
         public Company Company { get; set; }
 
         public virtual Policy Policy { get; set; }

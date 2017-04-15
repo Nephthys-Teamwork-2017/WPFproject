@@ -20,7 +20,7 @@ namespace Models
         public decimal Price { get; set; }
         public decimal FinalPrice { get; set; }
         public string Status { get; set; }
-        public virtual int AgentId { get; set; }
+        public int AgentId { get; set; }
         public Agent Agent { get; set; }
 
         public int PolicyId { get; set; }
@@ -28,7 +28,7 @@ namespace Models
         public Policy Policy { get; set; }
 
         public Blank Blank { get; set; }
-        public virtual int CompanyId { get; set; }
+        public int CompanyId { get; set; }
         public Company Company { get; set; }
 
         public virtual Income Income { get; set; }
