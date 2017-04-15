@@ -12,6 +12,7 @@ namespace Data
         public BrokerDbContext()
             : base("name=BrokerDbContext")
         {
+            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<BrokerDbContext>());
         }
 
        

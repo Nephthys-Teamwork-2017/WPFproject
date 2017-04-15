@@ -28,7 +28,7 @@ namespace WpfApplication2
 
             {
                 this.DataContext = context.Customers.ToList();
-
+                //AutoCompleteName.ItemsSource = context.Customers.ToList();
             }
 
 

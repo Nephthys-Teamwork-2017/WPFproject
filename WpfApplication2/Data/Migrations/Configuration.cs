@@ -10,6 +10,9 @@ namespace Data.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
+
+           
+
         }
 
         protected override void Seed(Data.BrokerDbContext context)

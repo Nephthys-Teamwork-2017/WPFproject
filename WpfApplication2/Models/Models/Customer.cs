@@ -12,7 +12,9 @@ namespace Models
         public Customer()
         {
             this.CustomerPolicies = new HashSet<Policy>();
+
             this.InsurersPolicies = new HashSet<Policy>();
+
         }
         public int Id { get; set; }
 
@@ -28,7 +30,12 @@ namespace Models
         public string Email { get; set; }
         public string Notes { get; set; }
 
-        public string StatePersonalNumber { get; set; }
+         public string StatePersonalNumber { get; set; }
 
-    }
+        public override string ToString()
+        {
+            return Name;
+       }
+
+}
 }
