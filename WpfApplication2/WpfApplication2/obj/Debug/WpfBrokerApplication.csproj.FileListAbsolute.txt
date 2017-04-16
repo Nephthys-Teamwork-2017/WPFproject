@@ -87,3 +87,44 @@ D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproj
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.g.resources
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfBrokerApplication.csproj.GenerateResource.Cache
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.pdb
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\Data.dll
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.dll
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.dll
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\Models.dll
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\WPFToolkit.dll
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\Data.pdb
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\Models.pdb
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.xml
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.xml
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfBrokerApplication.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\BlanksPage.g.cs
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\ClientNameSearchExamplee.g.cs
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page1.g.cs
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page2.g.cs
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PaymentsPage.g.cs
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PolicyPage.g.cs
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.lref
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\BlanksPage.baml
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\ClientNameSearchExamplee.baml
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page1.baml
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page2.baml
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PaymentsPage.baml
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PolicyPage.baml
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfBrokerApplication.csproj.GenerateResource.Cache
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\DatabaseInit.g.cs
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\DatabaseInit.baml

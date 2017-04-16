@@ -22,7 +22,14 @@
                     <Separator />
                     <MenuItem Header="_Exit" />
                 </MenuItem>
-                 </Menu>
+
+                <MenuItem Header="Utility">
+                    <MenuItem Header="Init Database" Click="InitDB" />
+                    <Separator />
+                </MenuItem>
+
+
+            </Menu>
             <TextBox AcceptsReturn="True" />
         </DockPanel>
         <Frame x:Name="frame" Content="" NavigationUIVisibility="Hidden" HorizontalAlignment="Left" Height="284" VerticalAlignment="Top" Width="507" Margin="0,25,0,0"/>

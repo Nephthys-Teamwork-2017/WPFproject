@@ -16,5 +16,6 @@ namespace Models.Models
         public int ProductId { get; set; }
 
         public decimal Comission { get; set; }
+        public bool IsDeleted { get; set; } = false;
     }
 }

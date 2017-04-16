@@ -26,6 +26,36 @@ namespace Data
         public virtual DbSet<Policy> Policies{ get; set; }
         public virtual DbSet<Product> Products { get; set; }
 
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Policy>()
+                .HasRequired(p => p.Insured)
+                .WithMany(c => c.InsurersPolicies)
+                .WillCascadeOnDelete(false);
+
+
+            modelBuilder.Entity<Customer>()
+                        .Property(p => p.Phone)
+                        .HasMaxLength(10)
+                        .HasColumnType("char")
+                        .IsFixedLength();
+
+            modelBuilder.Entity<Company>()
+                        .Property(p => p.Phone)
+                        .HasMaxLength(10)
+                        .HasColumnType("char")
+                        .IsFixedLength();
+
+            modelBuilder.Entity<Agent>()
+                        .Property(p => p.Phone)
+                        .HasMaxLength(10)
+                        .HasColumnType("char")
+                        .IsFixedLength();
+
+
+            base.OnModelCreating(modelBuilder);
+        }
+
     }
 
     

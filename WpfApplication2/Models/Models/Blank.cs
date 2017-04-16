@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,10 @@ namespace Models
 
 
         public int Id { get; set; }
+        [Required]
         public string Number { get; set; }
+
+        [Required]
         public string Status { get; set; }
         public DateTime TakenDate { get; set; }
         public DateTime IssueDate { get; set; }
@@ -32,6 +36,8 @@ namespace Models
 
 
         public virtual Payment Payment { get; set; }
+
+        public bool IsDeleted { get; set; } = false;
 
 
 

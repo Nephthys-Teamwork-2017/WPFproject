@@ -1,6 +1,7 @@
 ﻿using Models.Models;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,13 +20,19 @@ namespace Models
             this.Incomes = new HashSet<Income>();
         }
         public int Id { get; set; }
+
+        [Required]
         public string Code { get; set; }
+
+        [Required]
         public string Name { get; set; }
         public virtual ICollection<AgentProdCom> AgentsProdCom { get; set; }
         public virtual ICollection<Policy> Policies { get; set; }
         public virtual ICollection<Blank> Blanks { get; set; }
         public virtual ICollection<Income> Incomes { get; set; }
         public virtual ICollection<CompanyProdCom> CompaniesProdCom { get; set; }
+
+        public bool IsDeleted { get; set; } = false;
 
     }
 }

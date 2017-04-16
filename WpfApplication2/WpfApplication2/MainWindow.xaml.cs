@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApplication2;
 
 namespace WpfApplication2
 {
@@ -56,5 +57,17 @@ namespace WpfApplication2
             ClientNameSearchExample searchClientPage = new ClientNameSearchExample();
             frame.NavigationService.Navigate(searchClientPage);
         }
+
+        private void InitDB(object sender, RoutedEventArgs e)
+        {
+            using (var context = new BrokerDbContext())
+            {
+                context.Database.Initialize(true);
+                MessageBoxResult result = MessageBox.Show("Database Initialized!", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
+
+            }
+
+        }
     }
 }
+

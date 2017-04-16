@@ -22,5 +22,7 @@ namespace Models
         public virtual int AgentId { get; set; }
 
         public virtual Payment Payment { get; set; }
+
+        public bool IsDeleted { get; set; } = false;
     }
 }

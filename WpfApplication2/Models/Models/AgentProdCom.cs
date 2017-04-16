@@ -15,5 +15,7 @@ namespace Models.Models
         [Key, Column(Order = 1)]
         public int ProductId { get; set; }
         public decimal Comission { get; set; }
+
+        public bool IsDeleted { get; set; } = false;
     }
 }
