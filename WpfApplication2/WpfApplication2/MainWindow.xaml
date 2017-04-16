@@ -5,27 +5,48 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="700">
     <Grid>
         <DockPanel>
             <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_Due Dates Report">
+                    <MenuItem Header="_For Period" Click="mnuNewClient" />
+                </MenuItem>
                 <MenuItem Header="_Clients">
                     <MenuItem Header="_Add New Client" Click="mnuNewClient" />
                     <MenuItem Header="_View All Clients" Click="mnuViewClient" />
                     <MenuItem Header="_Search Client By Name" Click="mnuSearchByName" />
-                    <Separator />
-                    <MenuItem Header="_Exit" />
                 </MenuItem>
 
                 <MenuItem Header="_Policies">
                     <MenuItem Header="_Add New Policy" Click="mnuNewPolicy" />
-                    <Separator />
-                    <MenuItem Header="_Exit" />
                 </MenuItem>
+                <MenuItem Header="_Blanks">
+                    <MenuItem Header="_Add New Blank" />
+                    <MenuItem Header="_View Blanks"  />
+                </MenuItem>
+                <MenuItem Header="_Agents">
+                    <MenuItem Header="_Add New Agent" />
+                    <MenuItem Header="_View Agents"  />
+                </MenuItem>
+                <MenuItem Header="_Payments">
+                    <MenuItem Header="_Add New Payment" />
+                    <MenuItem Header="_View Payments"  />
+                </MenuItem>
+                <MenuItem Header="_Products">
+                    <MenuItem Header="_Add New Product" />
+                    <MenuItem Header="_View Products"  />
+                </MenuItem>
+                <MenuItem Header="_Companies">
+                    <MenuItem Header="_Add New Company" />
+                    <MenuItem Header="_View Companies"  />
+                </MenuItem>
+                <MenuItem Header="_Incomes">
 
+                    <MenuItem Header="_View Incomes"  />
+                </MenuItem>
                 <MenuItem Header="Utility">
                     <MenuItem Header="Init Database" Click="InitDB" />
-                    <Separator />
                 </MenuItem>
 
 
