@@ -63,6 +63,7 @@
       <DependentUpon>BrokerDatabaseDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="BrokerDbContext.cs" />
+    <Compile Include="DTO\CompanyDTO.cs" />
     <Compile Include="DTO\DueDateReportDTO.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,6 +72,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Store\CompanyStore.cs" />
     <Compile Include="Store\PaymentStore.cs" />
   </ItemGroup>
   <ItemGroup>

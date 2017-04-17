@@ -16,6 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfApplication2;
+using WpfApplication2.Pages.Companies;
 using WpfApplication2.Pages.Due_Date_Report;
 
 namespace WpfApplication2
@@ -67,6 +68,12 @@ namespace WpfApplication2
         {
             DueDateReportPage report = new DueDateReportPage();
             frame.NavigationService.Navigate(report);
+        }
+
+        private void mnuAddNewCompany(object sender, RoutedEventArgs e)
+        {
+            AddCompanyPage page = new AddCompanyPage();
+            frame.NavigationService.Navigate(page);
         }
 
         private void InitDB(object sender, RoutedEventArgs e)

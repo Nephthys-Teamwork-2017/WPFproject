@@ -38,7 +38,7 @@
                     <MenuItem Header="_View Products"  />
                 </MenuItem>
                 <MenuItem Header="_Companies">
-                    <MenuItem Header="_Add New Company" />
+                    <MenuItem Header="_Add New Company" Click="mnuAddNewCompany" />
                     <MenuItem Header="_View Companies"  />
                 </MenuItem>
                 <MenuItem Header="_Incomes">
@@ -53,7 +53,7 @@
             </Menu>
             <TextBox AcceptsReturn="True" />
         </DockPanel>
-        <Frame x:Name="frame" Content="" NavigationUIVisibility="Hidden" HorizontalAlignment="Left" Height="289" VerticalAlignment="Top" Width="692" Margin="0,30,0,0"/>
+        <Frame x:Name="frame" Content="" NavigationUIVisibility="Hidden" HorizontalAlignment="Left" Height="299" VerticalAlignment="Top" Width="692" Margin="0,20,0,0"/>
 
 
     </Grid>

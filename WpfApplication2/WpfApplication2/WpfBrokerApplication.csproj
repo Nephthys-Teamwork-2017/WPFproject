@@ -107,6 +107,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\Companies\AddCompanyPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Due Date Report\DueDateReportPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -129,6 +133,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\Companies\AddCompanyPage.xaml.cs">
+      <DependentUpon>AddCompanyPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Due Date Report\DueDateReportPage.xaml.cs">
       <DependentUpon>DueDateReportPage.xaml</DependentUpon>
     </Compile>
@@ -187,7 +194,6 @@
     <Folder Include="Pages\Agents\" />
     <Folder Include="Pages\Blanks\" />
     <Folder Include="Pages\Clients\" />
-    <Folder Include="Pages\Companies\" />
     <Folder Include="Pages\Incomes\" />
     <Folder Include="Pages\Payments\" />
     <Folder Include="Pages\Policies\" />
