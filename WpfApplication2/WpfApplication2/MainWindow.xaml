@@ -39,7 +39,7 @@
                 </MenuItem>
                 <MenuItem Header="_Companies">
                     <MenuItem Header="_Add New Company" Click="mnuAddNewCompany" />
-                    <MenuItem Header="_View Companies"  />
+                    <MenuItem Header="_View Companies" Click="mnuViewCompanies" />
                 </MenuItem>
                 <MenuItem Header="_Incomes">
 

@@ -30,7 +30,8 @@ namespace WpfApplication2
        
         public MainWindow()
         {
-           
+
+            AutoMapperConfiguration.Configure();
 
             InitializeComponent();
            
@@ -75,6 +76,14 @@ namespace WpfApplication2
             AddCompanyPage page = new AddCompanyPage();
             frame.NavigationService.Navigate(page);
         }
+
+        private void mnuViewCompanies(object sender, RoutedEventArgs e)
+        {
+            ViewCompanyPage page = new ViewCompanyPage();
+            frame.NavigationService.Navigate(page);
+        }
+
+
 
         private void InitDB(object sender, RoutedEventArgs e)
         {

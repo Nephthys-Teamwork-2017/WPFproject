@@ -1,4 +1,6 @@
-﻿using Models;
+﻿using AutoMapper.QueryableExtensions;
+using Data.DTO;
+using Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,5 +31,15 @@ namespace Data.Store
             return true;
 
         }
+
+        public static IEnumerable<CompanyDTO> GetAllCompanies(BrokerDbContext context)
+        {
+
+            return context.Companies.ProjectTo<CompanyDTO>().ToList();
+
+
+        }
+
+
     }
 }

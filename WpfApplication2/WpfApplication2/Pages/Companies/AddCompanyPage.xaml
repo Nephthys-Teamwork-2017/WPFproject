@@ -8,7 +8,7 @@
       d:DesignHeight="300" d:DesignWidth="300"
       Title="AddCompanyPage">
 
-    <Grid Background="#FF538B58"  >
+    <Grid    >
         <Label x:Name="NameLabel" Content="Name" HorizontalAlignment="Left" Margin="22,10,0,0" VerticalAlignment="Top"/>
         <Label x:Name="AddressLabel" Content="Address" HorizontalAlignment="Left" Margin="22,41,0,0" VerticalAlignment="Top"/>
         <Label x:Name="PhoneLabel" Content="Phone" HorizontalAlignment="Left" Margin="22,72,0,0" VerticalAlignment="Top"/>
