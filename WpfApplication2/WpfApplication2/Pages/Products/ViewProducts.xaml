@@ -1,0 +1,29 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApplication2.Pages.Products"
+      xmlns:WpfApplication2="clr-namespace:WpfApplication2" x:Class="WpfApplication2.Pages.Products.ViewProducts"
+      mc:Ignorable="d" 
+      d:DesignHeight="350" d:DesignWidth="700"
+      Title="ViewProducts">
+
+    <Page.Resources>
+        <WpfApplication2:BrokerDatabaseDataSet x:Key="brokerDatabaseDataSet"/>
+        <CollectionViewSource x:Key="productsViewSource" Source="{Binding Products, Source={StaticResource brokerDatabaseDataSet}}"/>
+    </Page.Resources>
+
+    <Grid DataContext="{StaticResource productsViewSource}">
+
+        <DataGrid x:Name="productsDataGrid" RowDetailsVisibilityMode="VisibleWhenSelected" ItemsSource="{Binding}" EnableRowVirtualization="True" AutoGenerateColumns="False" HorizontalAlignment="Left" Width="700">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="idColumn" Width="SizeToHeader" IsReadOnly="True" Header="Id" Binding="{Binding Id}"/>
+                <DataGridTextColumn x:Name="codeColumn" Width="SizeToHeader" Header="Code" Binding="{Binding Code}"/>
+                <DataGridTextColumn x:Name="nameColumn" Width="SizeToHeader" Header="Name" Binding="{Binding Name}"/>
+                <DataGridCheckBoxColumn x:Name="isDeletedColumn" Width="SizeToHeader" Header="Is Deleted" Binding="{Binding IsDeleted}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Page>

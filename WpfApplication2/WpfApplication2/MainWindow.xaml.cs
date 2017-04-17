@@ -19,6 +19,7 @@ using WpfApplication2;
 using WpfApplication2.Pages.Agents;
 using WpfApplication2.Pages.Companies;
 using WpfApplication2.Pages.Due_Date_Report;
+using WpfApplication2.Pages.Products;
 
 namespace WpfApplication2
 {
@@ -93,6 +94,16 @@ namespace WpfApplication2
         private void mnuViewAgents(object sender, RoutedEventArgs e)
         {
             ViewAgentsPage page = new ViewAgentsPage();
+            frame.NavigationService.Navigate(page);
+        }
+        private void ViewProducts(object sender, RoutedEventArgs e)
+        {
+            ViewProducts page = new ViewProducts();
+            frame.NavigationService.Navigate(page);
+        }
+        private void mnuAddNewProduct(object sender, RoutedEventArgs e)
+        {
+            AddProduct page = new AddProduct();
             frame.NavigationService.Navigate(page);
         }
 

@@ -60,3 +60,5 @@ D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2
 D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\Data\obj\Debug\Data.pdb
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\AutoMapper.dll
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\AutoMapper.xml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\AutoMapper.dll
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\AutoMapper.xml
