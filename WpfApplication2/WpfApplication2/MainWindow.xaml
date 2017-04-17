@@ -10,7 +10,7 @@
         <DockPanel>
             <Menu DockPanel.Dock="Top">
                 <MenuItem Header="_Due Dates Report">
-                    <MenuItem Header="_For Period" Click="mnuNewClient" />
+                    <MenuItem Header="_For Period" Click="mnuDueDateReport" />
                 </MenuItem>
                 <MenuItem Header="_Clients">
                     <MenuItem Header="_Add New Client" Click="mnuNewClient" />
@@ -53,7 +53,7 @@
             </Menu>
             <TextBox AcceptsReturn="True" />
         </DockPanel>
-        <Frame x:Name="frame" Content="" NavigationUIVisibility="Hidden" HorizontalAlignment="Left" Height="284" VerticalAlignment="Top" Width="507" Margin="0,25,0,0"/>
+        <Frame x:Name="frame" Content="" NavigationUIVisibility="Hidden" HorizontalAlignment="Left" Height="289" VerticalAlignment="Top" Width="692" Margin="0,30,0,0"/>
 
 
     </Grid>

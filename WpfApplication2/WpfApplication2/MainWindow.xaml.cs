@@ -1,4 +1,5 @@
 ﻿using Data;
+using Data.AutoMapperConfiguration;
 using Models;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfApplication2;
+using WpfApplication2.Pages.Due_Date_Report;
 
 namespace WpfApplication2
 {
@@ -27,6 +29,8 @@ namespace WpfApplication2
        
         public MainWindow()
         {
+           
+
             InitializeComponent();
            
 
@@ -56,6 +60,13 @@ namespace WpfApplication2
         {
             ClientNameSearchExample searchClientPage = new ClientNameSearchExample();
             frame.NavigationService.Navigate(searchClientPage);
+        }
+       
+
+        private void mnuDueDateReport(object sender, RoutedEventArgs e)
+        {
+            DueDateReportPage report = new DueDateReportPage();
+            frame.NavigationService.Navigate(report);
         }
 
         private void InitDB(object sender, RoutedEventArgs e)

@@ -1,5 +1,6 @@
 namespace Data.Migrations
 {
+    using Models;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -10,6 +11,7 @@ namespace Data.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
+            AutomaticMigrationDataLossAllowed = true;
 
            
 
@@ -17,18 +19,21 @@ namespace Data.Migrations
 
         protected override void Seed(Data.BrokerDbContext context)
         {
-            //  This method will be called after migrating to the latest version.
+            Customer cust = new Customer() { Name = "ivan", Phone = "123" };
 
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
+            context.Customers.Add(cust);
+            context.SaveChanges();
+
+            var payment = context.Payments.Find(1);
+            payment.Policy = context.Policies.Find(1);
+           // context.Payments.Add(payment);
+            context.SaveChanges();
+
+            //Payment payment = new Payment() { PolicyId = policy.Id, DateOfPayment = new DateTime(2000, 1, 1), Price = 11, FinalPrice = 12 };
+
+            //context.Payments.Add(payment);
+
+            //context.SaveChanges();
         }
     }
 }

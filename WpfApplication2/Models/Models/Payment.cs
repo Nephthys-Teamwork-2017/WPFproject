@@ -23,7 +23,7 @@ namespace Models
         public int AgentId { get; set; }
         public Agent Agent { get; set; }
 
-       
+
         public int PolicyId { get; set; }
 
         public Policy Policy { get; set; }

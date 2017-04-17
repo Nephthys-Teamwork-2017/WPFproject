@@ -15,7 +15,6 @@ C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\De
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\BlanksPage.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\ClientNameSearchExamplee.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page1.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page2.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PaymentsPage.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PolicyPage.g.cs
@@ -40,7 +39,6 @@ C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\De
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\BlanksPage.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\ClientNameSearchExamplee.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page1.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page2.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PaymentsPage.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PolicyPage.baml
@@ -128,3 +126,9 @@ D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2
 D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
 D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\DatabaseInit.g.cs
 D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\DatabaseInit.baml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Page1\Page1.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Page1\Page1.baml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\AutoMapper.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\AutoMapper.xml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Due Date Report\DueDateReportPage.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Due Date Report\DueDateReportPage.baml
