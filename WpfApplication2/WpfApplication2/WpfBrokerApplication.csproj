@@ -107,6 +107,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\Agents\AddAgentPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Agents\ViewAgentsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Companies\AddCompanyPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -137,6 +145,12 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\Agents\AddAgentPage.xaml.cs">
+      <DependentUpon>AddAgentPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Agents\ViewAgentsPage.xaml.cs">
+      <DependentUpon>ViewAgentsPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Companies\AddCompanyPage.xaml.cs">
       <DependentUpon>AddCompanyPage.xaml</DependentUpon>
     </Compile>
@@ -198,7 +212,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Pages\Agents\" />
     <Folder Include="Pages\Blanks\" />
     <Folder Include="Pages\Clients\" />
     <Folder Include="Pages\Incomes\" />

@@ -9,17 +9,14 @@ using System.Threading.Tasks;
 
 namespace Data.Store
 {
-    public class CompanyStore
+    public class AgentStore
     {
-        public static bool AddCompany(BrokerDbContext context,Company company)
+        public static bool AddAgent(BrokerDbContext context, Agent agent)
         {
 
             try
             {
-
-
-                context.Companies.Add(company);
-
+                context.Agents.Add(agent);
                 context.SaveChanges();
 
             }
@@ -27,14 +24,14 @@ namespace Data.Store
             {
                 return false;
             }
-
             return true;
 
         }
 
-        public static IEnumerable<CompanyDTO> GetAllCompanies(BrokerDbContext context)
+
+        public static IEnumerable<AgentDTO> GetAllAgents(BrokerDbContext context)
         {
-            return context.Companies.Where(x=>x.IsDeleted==false).ProjectTo<CompanyDTO>().ToList();
+            return context.Agents.Where(x => x.IsDeleted == false).ProjectTo<AgentDTO>().ToList();
         }
 
 

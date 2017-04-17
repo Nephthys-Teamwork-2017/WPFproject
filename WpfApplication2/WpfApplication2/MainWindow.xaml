@@ -26,8 +26,8 @@
                     <MenuItem Header="_View Blanks"  />
                 </MenuItem>
                 <MenuItem Header="_Agents">
-                    <MenuItem Header="_Add New Agent" />
-                    <MenuItem Header="_View Agents"  />
+                    <MenuItem Header="_Add New Agent"  Click="mnuAddNewAgent" />
+                    <MenuItem Header="_View Agents"   Click="mnuViewAgents" />
                 </MenuItem>
                 <MenuItem Header="_Payments">
                     <MenuItem Header="_Add New Payment" />

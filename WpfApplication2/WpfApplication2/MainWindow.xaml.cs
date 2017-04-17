@@ -16,6 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfApplication2;
+using WpfApplication2.Pages.Agents;
 using WpfApplication2.Pages.Companies;
 using WpfApplication2.Pages.Due_Date_Report;
 
@@ -83,7 +84,17 @@ namespace WpfApplication2
             frame.NavigationService.Navigate(page);
         }
 
+        private void mnuAddNewAgent(object sender, RoutedEventArgs e)
+        {
+            AddAgentPage page = new AddAgentPage();
+            frame.NavigationService.Navigate(page);
+        }
 
+        private void mnuViewAgents(object sender, RoutedEventArgs e)
+        {
+            ViewAgentsPage page = new ViewAgentsPage();
+            frame.NavigationService.Navigate(page);
+        }
 
         private void InitDB(object sender, RoutedEventArgs e)
         {

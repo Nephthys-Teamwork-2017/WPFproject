@@ -33,9 +33,19 @@ namespace WpfApplication2.Pages.Companies
         {
             using (var context = new BrokerDbContext())
             {
-                Company company = new Company() { Address = AddressTextBox.Text, Email = EmailTextBox.Text, Name = NameTextBox.Text, Notes = NotesTextBox.Text, Phone = PhoneTextBox.Text };
+                Company company = new Company()
+                {
+                    Address = AddressTextBox.Text,
+                    Email = EmailTextBox.Text,
+                    Name = NameTextBox.Text,
+                    Notes = NotesTextBox.Text,
+                    Phone = PhoneTextBox.Text,
+                   
+                };
 
                 bool result= CompanyStore.AddCompany(context,company);
+
+
                 if (result == true)
                     MessageBox.Show($"{NameTextBox.Text} Company Added");
                 

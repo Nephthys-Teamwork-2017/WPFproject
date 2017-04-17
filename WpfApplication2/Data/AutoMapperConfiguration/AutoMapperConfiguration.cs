@@ -25,6 +25,7 @@ namespace Data.AutoMapperConfiguration
                 .ForMember(dto => dto.FinalPrice, opt => opt.MapFrom(src => src.FinalPrice));
 
                     cfg.CreateMap<Company, CompanyDTO>();
+                    cfg.CreateMap<Agent, AgentDTO>();
                 }
 
                );
