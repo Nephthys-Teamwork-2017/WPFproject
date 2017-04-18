@@ -21,16 +21,16 @@ namespace Models
         public decimal FinalPrice { get; set; }
         public string Status { get; set; }
         public int AgentId { get; set; }
-        public Agent Agent { get; set; }
+        public virtual Agent Agent { get; set; }
 
 
         public int PolicyId { get; set; }
 
-        public Policy Policy { get; set; }
+        public virtual Policy Policy { get; set; }
 
-        public Blank Blank { get; set; }
+        public virtual Blank Blank { get; set; }
         public int CompanyId { get; set; }
-        public Company Company { get; set; }
+        public virtual Company Company { get; set; }
 
         public virtual Income Income { get; set; }
 
