@@ -100,11 +100,6 @@
     <Compile Include="BlanksPage.xaml.cs">
       <DependentUpon>BlanksPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BrokerDatabaseDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BrokerDatabaseDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="ClientNameSearchExamplee.xaml.cs">
       <DependentUpon>ClientNameSearchExamplee.xaml</DependentUpon>
     </Compile>
@@ -120,6 +115,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Clients\AddClientPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Clients\ViewClientsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Companies\AddCompanyPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -132,19 +135,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Page1\Page1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Page2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Products\AddProduct.xaml">
+    <Page Include="Pages\Policies\AddPolicyPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Products\ViewProducts.xaml">
+    <Page Include="Pages\Products\AddProductPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Products\ViewProductsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -164,6 +167,12 @@
     <Compile Include="Pages\Agents\ViewAgentsPage.xaml.cs">
       <DependentUpon>ViewAgentsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Clients\AddClientPage.xaml.cs">
+      <DependentUpon>AddClientPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Clients\ViewClientsPage.xaml.cs">
+      <DependentUpon>ViewClientsPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Companies\AddCompanyPage.xaml.cs">
       <DependentUpon>AddCompanyPage.xaml</DependentUpon>
     </Compile>
@@ -173,17 +182,17 @@
     <Compile Include="Pages\Due Date Report\DueDateReportPage.xaml.cs">
       <DependentUpon>DueDateReportPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Page1\Page1.xaml.cs">
-      <DependentUpon>Page1.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Page2.xaml.cs">
       <DependentUpon>Page2.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Products\AddProduct.xaml.cs">
-      <DependentUpon>AddProduct.xaml</DependentUpon>
+    <Compile Include="Pages\Policies\AddPolicyPage.xaml.cs">
+      <DependentUpon>AddPolicyPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Products\ViewProducts.xaml.cs">
-      <DependentUpon>ViewProducts.xaml</DependentUpon>
+    <Compile Include="Pages\Products\AddProductPage.xaml.cs">
+      <DependentUpon>AddProductPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Products\ViewProductsPage.xaml.cs">
+      <DependentUpon>ViewProductsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="PaymentsPage.xaml.cs">
       <DependentUpon>PaymentsPage.xaml</DependentUpon>
@@ -208,17 +217,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="BrokerDatabaseDataSet.xsc">
-      <DependentUpon>BrokerDatabaseDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="BrokerDatabaseDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>BrokerDatabaseDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="BrokerDatabaseDataSet.xss">
-      <DependentUpon>BrokerDatabaseDataSet.xsd</DependentUpon>
-    </None>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\Data.DTO.DueDateReportDTO.datasource" />
     <None Include="Properties\DataSources\Models.Customer.datasource" />
@@ -243,10 +241,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\Blanks\" />
-    <Folder Include="Pages\Clients\" />
     <Folder Include="Pages\Incomes\" />
     <Folder Include="Pages\Payments\" />
-    <Folder Include="Pages\Policies\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="'$(SQLDBExtensionsRefPath)' != ''" />

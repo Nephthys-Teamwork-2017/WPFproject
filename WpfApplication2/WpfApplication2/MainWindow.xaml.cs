@@ -17,8 +17,10 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfApplication2;
 using WpfApplication2.Pages.Agents;
+using WpfApplication2.Pages.Clients;
 using WpfApplication2.Pages.Companies;
 using WpfApplication2.Pages.Due_Date_Report;
+using WpfApplication2.Pages.Policies;
 using WpfApplication2.Pages.Products;
 
 namespace WpfApplication2
@@ -44,20 +46,20 @@ namespace WpfApplication2
 
         private void mnuNewClient(object sender, RoutedEventArgs e)
         {
-            Page1 p1 = new Page1();
-            frame.NavigationService.Navigate(p1);
+            AddClientPage page = new AddClientPage();
+            frame.NavigationService.Navigate(page);
         }
 
         private void mnuViewClient(object sender, RoutedEventArgs e)
         {
-            Page2 p2 = new Page2();
-            frame.NavigationService.Navigate(p2);
+            ViewClientsPage page = new ViewClientsPage();
+            frame.NavigationService.Navigate(page);
         }
 
         private void mnuNewPolicy(object sender, RoutedEventArgs e)
         {
-            PolicyPage policyPage = new PolicyPage();
-            frame.NavigationService.Navigate(policyPage);
+            AddPolicyPage page = new AddPolicyPage();
+            frame.NavigationService.Navigate(page);
         }
 
         private void mnuSearchByName(object sender, RoutedEventArgs e)
@@ -90,20 +92,18 @@ namespace WpfApplication2
             AddAgentPage page = new AddAgentPage();
             frame.NavigationService.Navigate(page);
         }
+        
+
+        private void mnuAddNewProduct(object sender, RoutedEventArgs e)
+        {
+            AddProductPage page = new AddProductPage();
+            frame.NavigationService.Navigate(page);
+        }
+
 
         private void mnuViewAgents(object sender, RoutedEventArgs e)
         {
             ViewAgentsPage page = new ViewAgentsPage();
-            frame.NavigationService.Navigate(page);
-        }
-        private void ViewProducts(object sender, RoutedEventArgs e)
-        {
-            ViewProducts page = new ViewProducts();
-            frame.NavigationService.Navigate(page);
-        }
-        private void mnuAddNewProduct(object sender, RoutedEventArgs e)
-        {
-            AddProduct page = new AddProduct();
             frame.NavigationService.Navigate(page);
         }
 

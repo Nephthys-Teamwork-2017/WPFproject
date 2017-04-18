@@ -19,21 +19,27 @@ namespace Data.Migrations
 
         protected override void Seed(Data.BrokerDbContext context)
         {
-            Customer cust = new Customer() { Name = "ivan", Phone = "123" };
+            //Product product1 = new Product()
+            //{
+            //     Code="123123",
+            //     Name="Product1"
 
-            context.Customers.Add(cust);
-            context.SaveChanges();
+            //};
+            //Product product2 = new Product()
+            //{
+            //    Code = "123123",
+            //    Name = "Product2"
 
-            var payment = context.Payments.Find(1);
-            payment.Policy = context.Policies.Find(1);
-           // context.Payments.Add(payment);
-            context.SaveChanges();
+            //};
 
-            //Payment payment = new Payment() { PolicyId = policy.Id, DateOfPayment = new DateTime(2000, 1, 1), Price = 11, FinalPrice = 12 };
-
-            //context.Payments.Add(payment);
+            //context.Products.Add(product1);
+            //context.Products.Add(product2);
 
             //context.SaveChanges();
+
+
+          
+
         }
     }
 }

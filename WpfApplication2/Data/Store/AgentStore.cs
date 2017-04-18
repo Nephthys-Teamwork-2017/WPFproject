@@ -29,9 +29,13 @@ namespace Data.Store
         }
 
 
-        public static IEnumerable<AgentDTO> GetAllAgents(BrokerDbContext context)
+        public static IEnumerable<AgentDTO> GetAllAgents()
         {
-            return context.Agents.Where(x => x.IsDeleted == false).ProjectTo<AgentDTO>().ToList();
+            using (var context = new BrokerDbContext())
+            {
+                return context.Agents.Where(x => x.IsDeleted == false).ProjectTo<AgentDTO>().ToList();
+            }
+
         }
 
 

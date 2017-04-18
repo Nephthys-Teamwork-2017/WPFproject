@@ -57,7 +57,7 @@ namespace WpfApplication2
 
         private void mnuNewBlank(object sender, RoutedEventArgs e)
         {
-            Page1 p1 = new Page1();
+            //Page1 p1 = new Page1();
            
         }
 

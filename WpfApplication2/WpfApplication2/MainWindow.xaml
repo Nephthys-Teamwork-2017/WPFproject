@@ -34,8 +34,8 @@
                     <MenuItem Header="_View Payments"  />
                 </MenuItem>
                 <MenuItem Header="_Products">
-                    <MenuItem Header="_Add New Product" Click="mnuAddNewProduct"  />
-                    <MenuItem Header="_View Products" Click="ViewProducts"/>
+                    <MenuItem Header="_Add New Product" Click="mnuAddNewProduct" />
+                    <MenuItem Header="_View Products"  />
                 </MenuItem>
                 <MenuItem Header="_Companies">
                     <MenuItem Header="_Add New Company" Click="mnuAddNewCompany" />

@@ -11,42 +11,6 @@ C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\WpfApplication
 C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
 C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
 C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.lref
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfBrokerApplication.csprojResolveAssemblyReference.cache
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\BlanksPage.g.cs
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\ClientNameSearchExamplee.g.cs
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page2.g.cs
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PaymentsPage.g.cs
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PolicyPage.g.cs
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.lref
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.pdb
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\Data.dll
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.dll
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\Models.dll
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\WPFToolkit.dll
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\Data.pdb
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\Models.pdb
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.xml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\BlanksPage.baml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\ClientNameSearchExamplee.baml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page2.baml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PaymentsPage.baml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PolicyPage.baml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.g.resources
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfBrokerApplication.csproj.GenerateResource.Cache
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
@@ -68,6 +32,7 @@ D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproj
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\BlanksPage.g.cs
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\ClientNameSearchExamplee.g.cs
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page1.g.cs
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page2.g.cs
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PaymentsPage.g.cs
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PolicyPage.g.cs
@@ -77,6 +42,7 @@ D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproj
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\BlanksPage.baml
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\ClientNameSearchExamplee.baml
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page1.baml
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page2.baml
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PaymentsPage.baml
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PolicyPage.baml
@@ -124,36 +90,61 @@ D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2
 D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
 D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\DatabaseInit.g.cs
 D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\DatabaseInit.baml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Page1\Page1.g.cs
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Page1\Page1.baml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\AutoMapper.dll
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\AutoMapper.xml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Due Date Report\DueDateReportPage.g.cs
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Due Date Report\DueDateReportPage.baml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\AddCompanyPage.g.cs
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\AddCompanyPage.baml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\ViewCompanyPage.g.cs
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\ViewCompanyPage.baml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfBrokerApplication.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\BlanksPage.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\ClientNameSearchExamplee.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Agents\AddAgentPage.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Agents\ViewAgentsPage.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\AddCompanyPage.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\ViewCompanyPage.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Due Date Report\DueDateReportPage.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page2.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Policies\AddPolicyPage.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PaymentsPage.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PolicyPage.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.lref
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.pdb
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\Data.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\Models.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\WPFToolkit.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\AutoMapper.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\Data.pdb
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\Models.pdb
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\AutoMapper.xml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\BlanksPage.baml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\ClientNameSearchExamplee.baml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Agents\AddAgentPage.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Agents\ViewAgentsPage.baml
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\AutoMapper.dll
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\AutoMapper.xml
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Agents\AddAgentPage.g.cs
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Agents\ViewAgentsPage.g.cs
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\AddCompanyPage.g.cs
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\ViewCompanyPage.g.cs
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Due Date Report\DueDateReportPage.g.cs
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Page1\Page1.g.cs
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Agents\AddAgentPage.baml
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Agents\ViewAgentsPage.baml
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\AddCompanyPage.baml
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\ViewCompanyPage.baml
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Due Date Report\DueDateReportPage.baml
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Page1\Page1.baml
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Products\AddProduct.g.cs
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Products\ViewProducts.g.cs
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Products\AddProduct.baml
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Products\ViewProducts.baml
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\AddCompanyPage.baml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\ViewCompanyPage.baml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Due Date Report\DueDateReportPage.baml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page2.baml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Policies\AddPolicyPage.baml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PaymentsPage.baml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PolicyPage.baml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfBrokerApplication.csproj.GenerateResource.Cache
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Clients\ViewClientsPage.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Clients\AddClientPage.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Clients\AddClientPage.baml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Clients\ViewClientsPage.baml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Products\AddProductPage.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Products\ViewProductsPage.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Products\AddProductPage.baml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Products\ViewProductsPage.baml

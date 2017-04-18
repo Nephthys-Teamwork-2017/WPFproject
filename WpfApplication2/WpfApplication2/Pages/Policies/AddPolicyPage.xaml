@@ -1,0 +1,55 @@
+﻿<Page x:Class="WpfApplication2.Pages.Policies.AddPolicyPage"
+      xmlns:toolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Input.Toolkit"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApplication2.Pages.Policies"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="AddPolicyPage">
+
+    <Grid Background="AliceBlue" Margin="0,0,-345,10">
+        <Label x:Name="PolicyNumberLabel" Content="Policy Number" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="PolicyNumberTextBox" HorizontalAlignment="Left" Height="23" Margin="110,10,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="120"/>
+        <ComboBox SelectionChanged="LoadProducts" x:Name="CompaniesComboBox" HorizontalAlignment="Left" Margin="110,44,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="CompanyLabel" Content="Company" HorizontalAlignment="Left" Margin="30,44,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="ProductsComboBox" HorizontalAlignment="Left" Margin="110,80,0,0" VerticalAlignment="Top" Width="120"  />
+        <Label x:Name="ProductLabel" Content="Product" HorizontalAlignment="Left" Margin="30,80,0,0" VerticalAlignment="Top" Width="74"/>
+        <DatePicker x:Name="issueDatePicker" HorizontalAlignment="Left" Margin="385,10,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="startDatePicker" HorizontalAlignment="Left" Margin="385,44,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="endDatePicker" HorizontalAlignment="Left" Margin="385,78,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="IssueDate" Content="IssueDate" HorizontalAlignment="Left" Margin="302,13,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="startDateLabel" Content="StartDate" HorizontalAlignment="Left" Margin="303,44,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="EndDateLabel" Content="EndDate" HorizontalAlignment="Left" Margin="302,78,0,0" VerticalAlignment="Top"/>
+        <toolkit:AutoCompleteBox
+            Name="EGNClientName"
+            FilterMode="ContainsOrdinal"
+     
+     
+    ValueMemberPath="" Margin="385,119,0,151" HorizontalAlignment="Left" Width="102"
+    />
+        <Label x:Name="CustomerEGN" Content="Customers' EGN" HorizontalAlignment="Left" Margin="266,116,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label x:Name="InsuredLabel" Content="InsuredName" HorizontalAlignment="Left" Margin="266,157,0,0" VerticalAlignment="Top" Width="95"/>
+        <toolkit:AutoCompleteBox
+            x:Name="InsuredName"
+            FilterMode="ContainsOrdinal"
+            
+             
+            ValueMemberPath="" Margin="385,157,0,113" HorizontalAlignment="Left" Width="102"
+    />
+        <Label x:Name="AgentLabel" Content="Agent" HorizontalAlignment="Left" Margin="302,194,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="AgentComboBox" HorizontalAlignment="Left" Margin="385,194,0,0" VerticalAlignment="Top" Width="102"/>
+        <TextBox x:Name="PremiumTextBox" HorizontalAlignment="Left" Height="23" Margin="110,116,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label" Content="Premium" HorizontalAlignment="Left" Margin="33,116,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TaxTextBox" HorizontalAlignment="Left" Height="23" Margin="110,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="TaxLabel" Content="Tax" HorizontalAlignment="Left" Margin="47,160,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Price" HorizontalAlignment="Left" Margin="37,197,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="PriceTextBox" HorizontalAlignment="Left" Height="23" Margin="110,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="NoteLabel" Content="Notes" HorizontalAlignment="Left" Margin="505,9,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="NotesTextBox" HorizontalAlignment="Left" Height="167" Margin="550,9,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <ComboBox x:Name="StatusComboBox" HorizontalAlignment="Left" Margin="550,194,0,0" VerticalAlignment="Top" Width="85"/>
+        <Label x:Name="label2" Content="Status" HorizontalAlignment="Left" Margin="505,194,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="AddPolicyButton" Content="Add Policy" HorizontalAlignment="Left" Height="40" Margin="240,240,0,0" VerticalAlignment="Top" Width="175" Click="AddPolicyButton_Click"/>
+    </Grid>
+</Page>

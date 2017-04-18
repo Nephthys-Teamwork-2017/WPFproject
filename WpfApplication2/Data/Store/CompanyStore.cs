@@ -32,9 +32,12 @@ namespace Data.Store
 
         }
 
-        public static IEnumerable<CompanyDTO> GetAllCompanies(BrokerDbContext context)
+        public static IEnumerable<CompanyDTO> GetAllCompanies()
         {
-            return context.Companies.Where(x=>x.IsDeleted==false).ProjectTo<CompanyDTO>().ToList();
+            using (var context = new BrokerDbContext())
+            {
+                return context.Companies.Where(x => x.IsDeleted == false).ProjectTo<CompanyDTO>().ToList();
+            }
         }
 
 

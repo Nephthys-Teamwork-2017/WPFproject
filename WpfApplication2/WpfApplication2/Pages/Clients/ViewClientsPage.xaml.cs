@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Data.Store;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,16 +14,17 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApplication2.Pages.Products
+namespace WpfApplication2.Pages.Clients
 {
     /// <summary>
-    /// Interaction logic for AddProduct.xaml
+    /// Interaction logic for ViewClientsPage.xaml
     /// </summary>
-    public partial class AddProduct : Page
+    public partial class ViewClientsPage : Page
     {
-        public AddProduct()
+        public ViewClientsPage()
         {
             InitializeComponent();
+            customerDTODataGrid.ItemsSource = CustomerStore.GetAllCustomers();
         }
     }
 }

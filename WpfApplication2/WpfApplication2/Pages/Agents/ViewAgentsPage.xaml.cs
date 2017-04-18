@@ -28,7 +28,7 @@ namespace WpfApplication2.Pages.Agents
 
             using (var context = new BrokerDbContext())
             {
-                agentDTODataGrid.ItemsSource = AgentStore.GetAllAgents(context);
+                agentDTODataGrid.ItemsSource = AgentStore.GetAllAgents();
             }
               
         }

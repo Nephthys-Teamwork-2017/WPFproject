@@ -26,6 +26,9 @@ namespace Data.AutoMapperConfiguration
 
                     cfg.CreateMap<Company, CompanyDTO>();
                     cfg.CreateMap<Agent, AgentDTO>();
+                    cfg.CreateMap<Product, ProductDTO>();
+                    cfg.CreateMap<Customer, CustomerDTO>();
+
                 }
 
                );

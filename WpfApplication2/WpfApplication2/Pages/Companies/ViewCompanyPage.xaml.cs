@@ -26,10 +26,9 @@ namespace WpfApplication2.Pages.Companies
         {
             InitializeComponent();
 
-            using (var context = new BrokerDbContext())
-            {
-                companyDTODataGrid.ItemsSource = CompanyStore.GetAllCompanies(context);
-            }
+            
+                companyDTODataGrid.ItemsSource = CompanyStore.GetAllCompanies();
+            
         }
     }
 }

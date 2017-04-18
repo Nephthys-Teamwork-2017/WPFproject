@@ -2,6 +2,7 @@ using Models;
 
 namespace Data
 {
+    using Models.Models;
     using System;
     using System.Data.Entity;
     using System.Linq;
@@ -25,6 +26,9 @@ namespace Data
         public virtual DbSet<Payment> Payments { get; set; }
         public virtual DbSet<Policy> Policies{ get; set; }
         public virtual DbSet<Product> Products { get; set; }
+        public virtual DbSet<CompanyProdCom> CompanyProdComs { get; set; }
+
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -51,6 +55,17 @@ namespace Data
                         .HasMaxLength(10)
                         .HasColumnType("char")
                         .IsFixedLength();
+
+            modelBuilder.Entity<Agent>()
+                       .HasMany(x => x.Policies)
+                       .WithRequired(x => x.Agent)
+                       .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Company>()
+                        .HasMany(x => x.Policies)
+                        .WithRequired(x => x.Company)
+                        .WillCascadeOnDelete(false);
+
 
 
             base.OnModelCreating(modelBuilder);

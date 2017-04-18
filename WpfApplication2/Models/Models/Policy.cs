@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace Models
 {
 
+    public enum Status { Active, Inactive, Cancelled }
     public class Policy
     {
         public Policy()
@@ -18,40 +19,31 @@ namespace Models
         public int Id { get; set; }
         public int Number { get; set; }
 
+        public int CustomerId { get; set; }
         public Customer Customer { get; set; }
         public int InsuredId { get; set; }
         public Customer Insured { get; set; }
 
+        public int AgentId { get; set; }
         public Agent Agent { get; set; }
 
         public int ProductId { get; set; }
         public Product Product { get; set; }
 
-
+        public int CompanyId { get; set; }
         public Company Company { get; set; }
 
         public DateTime IssueDate { get; set; }
         public DateTime StartDate { get; set; }
-        public DateTime EndDate
-        {
-            get
-            {
-                return this.EndDate;
-            }
-            set
-            {
-                if (!(value > this.StartDate))
-                {
-                    throw new ArgumentException("EndDate must be after StartDate!");
-                }
 
-                this.EndDate = value;
-            }
-        }
+        public DateTime EndDate { get; set; }
+      
         public decimal PolicyPremium { get; set; }
         public decimal Tax { get; set; }
         public decimal Price { get; set; }
-        public enum Status { Active, Inactive, Cancelled }
+
+         
+        public Status status { get; set; }
         public string Notes { get; set; }
 
         public virtual ICollection<Blank> Blanks { get; set; }

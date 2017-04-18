@@ -12,21 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Data;
 
 namespace WpfApplication2.Pages.Products
 {
     /// <summary>
-    /// Interaction logic for ViewProducts.xaml
+    /// Interaction logic for ViewProductsPage.xaml
     /// </summary>
-    public partial class ViewProducts : Page
+    public partial class ViewProductsPage : Page
     {
-        private BrokerDbContext context = new BrokerDbContext();
-
-        public ViewProducts()
+        public ViewProductsPage()
         {
             InitializeComponent();
-            productsDataGrid.ItemsSource = context.Products.ToList();
         }
     }
 }

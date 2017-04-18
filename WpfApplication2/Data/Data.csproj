@@ -65,7 +65,9 @@
     <Compile Include="BrokerDbContext.cs" />
     <Compile Include="DTO\AgentDTO.cs" />
     <Compile Include="DTO\CompanyDTO.cs" />
+    <Compile Include="DTO\CustomerDTO.cs" />
     <Compile Include="DTO\DueDateReportDTO.cs" />
+    <Compile Include="DTO\ProductDTO.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
@@ -75,7 +77,10 @@
     </Compile>
     <Compile Include="Store\AgentStore.cs" />
     <Compile Include="Store\CompanyStore.cs" />
+    <Compile Include="Store\CustomerStore.cs" />
     <Compile Include="Store\PaymentStore.cs" />
+    <Compile Include="Store\PolicyStore.cs" />
+    <Compile Include="Store\ProductStore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -93,6 +98,7 @@
     <None Include="packages.config" />
     <None Include="Properties\DataSources\Data.DTO.AgentDTO.datasource" />
     <None Include="Properties\DataSources\Data.DTO.CompanyDTO.datasource" />
+    <None Include="Properties\DataSources\Data.DTO.CustomerDTO.datasource" />
     <None Include="Properties\DataSources\Data.DTO.DueDateReportDTO.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
