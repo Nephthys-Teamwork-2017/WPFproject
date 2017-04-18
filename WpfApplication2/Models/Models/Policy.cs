@@ -20,18 +20,18 @@ namespace Models
         public int Number { get; set; }
 
         public int CustomerId { get; set; }
-        public Customer Customer { get; set; }
+        public virtual Customer Customer { get; set; }
         public int InsuredId { get; set; }
-        public Customer Insured { get; set; }
+        public virtual Customer Insured { get; set; }
 
         public int AgentId { get; set; }
-        public Agent Agent { get; set; }
+        public virtual Agent Agent { get; set; }
 
         public int ProductId { get; set; }
-        public Product Product { get; set; }
+        public virtual Product Product { get; set; }
 
         public int CompanyId { get; set; }
-        public Company Company { get; set; }
+        public virtual Company Company { get; set; }
 
         public DateTime IssueDate { get; set; }
         public DateTime StartDate { get; set; }
@@ -43,7 +43,7 @@ namespace Models
         public decimal Price { get; set; }
 
          
-        public Status status { get; set; }
+        public Status Status { get; set; }
         public string Notes { get; set; }
 
         public virtual ICollection<Blank> Blanks { get; set; }
