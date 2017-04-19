@@ -113,6 +113,11 @@ namespace WpfApplication2
             frame.NavigationService.Navigate(page);
         }
 
+        private void mnuViewProduct(object sender, RoutedEventArgs e)
+        {
+            ViewProductsPage page = new ViewProductsPage();
+            frame.NavigationService.Navigate(page);
+        }
 
         private void mnuViewAgents(object sender, RoutedEventArgs e)
         {

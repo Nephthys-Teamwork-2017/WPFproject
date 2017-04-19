@@ -15,7 +15,7 @@
 
     <Grid DataContext="{StaticResource paymentDTOViewSource}">
 
-        <DataGrid x:Name="paymentDTODataGrid" RowDetailsVisibilityMode="VisibleWhenSelected" ItemsSource="{Binding}" EnableRowVirtualization="True" AutoGenerateColumns="False">
+        <DataGrid IsReadOnly="True" x:Name="paymentDTODataGrid" RowDetailsVisibilityMode="VisibleWhenSelected" ItemsSource="{Binding}" EnableRowVirtualization="True" AutoGenerateColumns="False">
             <DataGrid.Columns>
                 <DataGridTextColumn x:Name="agentNameColumn" Width="SizeToHeader" Header="Agent Name" Binding="{Binding AgentName}"/>
                 <DataGridTextColumn x:Name="blankNumberColumn" Width="SizeToHeader" Header="Blank Number" Binding="{Binding BlankNumber}"/>

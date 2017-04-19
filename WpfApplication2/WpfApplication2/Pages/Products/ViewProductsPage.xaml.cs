@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Data.Store;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace WpfApplication2.Pages.Products
         public ViewProductsPage()
         {
             InitializeComponent();
+            productDTODataGrid.ItemsSource = ProductStore.getAllProducts();
         }
     }
 }

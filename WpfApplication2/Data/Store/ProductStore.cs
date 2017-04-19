@@ -14,7 +14,16 @@ namespace Data.Store
         {
             using (var context = new BrokerDbContext())
             {
-                return context.CompanyProdComs.Where(x => x.Company.Name == CompanyName).Select(x => x.Product).ProjectTo<ProductDTO>().ToList();
+                return context.CompanyProdComs.Where(x =>x.IsDeleted==false && x.Company.Name == CompanyName).Select(x => x.Product).ProjectTo<ProductDTO>().ToList();
+            }
+
+        }
+
+        public static List<ProductDTO> getAllProducts( )
+        {
+            using (var context = new BrokerDbContext())
+            {
+                return context.Products.Where(x => x.IsDeleted==false).ProjectTo<ProductDTO>().ToList();
             }
 
         }

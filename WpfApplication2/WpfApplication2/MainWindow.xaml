@@ -35,7 +35,7 @@
                 </MenuItem>
                 <MenuItem Header="_Products">
                     <MenuItem Header="_Add New Product" Click="mnuAddNewProduct" />
-                    <MenuItem Header="_View Products"  />
+                    <MenuItem Header="_View Products"  Click="mnuViewProduct" />
                 </MenuItem>
                 <MenuItem Header="_Companies">
                     <MenuItem Header="_Add New Company" Click="mnuAddNewCompany" />
