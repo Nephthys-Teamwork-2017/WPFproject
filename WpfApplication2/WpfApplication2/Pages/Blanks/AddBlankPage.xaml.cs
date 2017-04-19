@@ -50,6 +50,7 @@ namespace WpfApplication2.Pages.Blanks
 
         private void AddBlankButton_Click(object sender, RoutedEventArgs e)
         {
+
             Blank blank = new Blank()
             {
                  AgentId= AgentStore.GetAgentId(AgentComboBox.SelectedValue.ToString()),

@@ -10,43 +10,43 @@
         <DockPanel>
             <Menu DockPanel.Dock="Top">
                 <MenuItem Header="_Due Dates Report">
-                    <MenuItem Header="_For Period" Click="mnuDueDateReport" />
+                    <MenuItem Name="DueDateReport"  Header="_For Period" Click="menu" />
                 </MenuItem>
                 <MenuItem Header="_Clients">
                     <MenuItem Name="AddNewClient" Header="_Add New Client" Click="menu" />
                     <MenuItem Name="ViewClients" Header="_View All Clients" Click="menu" />
-                    <MenuItem Header="_Search Client By Name" Click="mnuSearchByName" />
+                   
                 </MenuItem>
 
                 <MenuItem Header="_Policies">
-                    <MenuItem Header="_Add New Policy" Click="mnuNewPolicy" />
+                    <MenuItem Name="AddNewPolicy" Header="_Add New Policy" Click="menu" />
                 </MenuItem>
                 <MenuItem Header="_Blanks">
-                    <MenuItem Header="_Add New Blank" Click="mnuAddBlank" />
-                    <MenuItem Header="_View Blanks" Click="mnuViewBlanks" />
+                    <MenuItem Name="AddNewBlank" Header="_Add New Blank" Click="menu" />
+                    <MenuItem Name="ViewBlanks" Header="_View Blanks" Click="menu" />
                 </MenuItem>
                 <MenuItem Header="_Agents">
-                    <MenuItem Header="_Add New Agent"  Click="mnuAddNewAgent" />
-                    <MenuItem Header="_View Agents"   Click="mnuViewAgents" />
+                    <MenuItem Name="AddNewAgent" Header="_Add New Agent"  Click="menu" />
+                    <MenuItem Name="ViewAgents" Header="_View Agents"   Click="menu" />
                 </MenuItem>
                 <MenuItem Header="_Payments">
-                    <MenuItem Header="_Add New Payment" Click="mnuAddPayment" />
-                    <MenuItem Header="_View Payments" Click="mnuViewPayment" />
+                    <MenuItem Name="AddPayment" Header="_Add New Payment" Click="menu" />
+                    <MenuItem Name="ViewPayment" Header="_View Payments" Click="menu" />
                 </MenuItem>
                 <MenuItem Header="_Products">
-                    <MenuItem Header="_Add New Product" Click="mnuAddNewProduct" />
-                    <MenuItem Header="_View Products"  Click="mnuViewProduct" />
+                    <MenuItem Name="AddNewProduct" Header="_Add New Product" Click="menu" />
+                    <MenuItem Name="ViewProducts" Header="_View Products"  Click="menu" />
                 </MenuItem>
                 <MenuItem Header="_Companies">
-                    <MenuItem Header="_Add New Company" Click="mnuAddNewCompany" />
-                    <MenuItem Header="_View Companies" Click="mnuViewCompanies" />
+                    <MenuItem Name="AddNewCompany" Header="_Add New Company" Click="menu" />
+                    <MenuItem Name="ViewCompanies" Header="_View Companies" Click="menu" />
                 </MenuItem>
                 <MenuItem Header="_Incomes">
 
-                    <MenuItem Header="_View Incomes"  />
+                    <MenuItem Name="ViewIncomes" Header="_View Incomes" Click="menu" />
                 </MenuItem>
                 <MenuItem Header="Utility">
-                    <MenuItem Header="Init Database" Click="InitDB" />
+                    <MenuItem Name="InitDb" Header="Init Database" Click="InitDB" />
                 </MenuItem>
 
 

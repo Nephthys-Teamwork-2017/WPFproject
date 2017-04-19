@@ -91,18 +91,13 @@ D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2
 D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\DatabaseInit.g.cs
 D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\DatabaseInit.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfBrokerApplication.csprojResolveAssemblyReference.cache
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\BlanksPage.g.cs
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\ClientNameSearchExamplee.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Agents\AddAgentPage.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Agents\ViewAgentsPage.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\AddCompanyPage.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\ViewCompanyPage.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Due Date Report\DueDateReportPage.g.cs
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page2.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Policies\AddPolicyPage.g.cs
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PaymentsPage.g.cs
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PolicyPage.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.lref
@@ -123,18 +118,13 @@ C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\De
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.xml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\AutoMapper.xml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\BlanksPage.baml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\ClientNameSearchExamplee.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Agents\AddAgentPage.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Agents\ViewAgentsPage.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\AddCompanyPage.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\ViewCompanyPage.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Due Date Report\DueDateReportPage.baml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page2.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Policies\AddPolicyPage.baml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PaymentsPage.baml
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PolicyPage.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.g.resources
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfBrokerApplication.csproj.GenerateResource.Cache

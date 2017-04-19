@@ -22,4 +22,3 @@ C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Models\bin\Debug\Model
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Models\bin\Debug\Models.pdb
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Models\obj\Debug\Models.dll
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Models\obj\Debug\Models.pdb
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache

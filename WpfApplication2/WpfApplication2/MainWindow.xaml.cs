@@ -46,64 +46,6 @@ namespace WpfApplication2
 
        
 
-       
-
-        private void mnuNewPolicy(object sender, RoutedEventArgs e)
-        {
-            AddPolicyPage page = new AddPolicyPage();
-            frame.NavigationService.Navigate(page);
-        }
-
-        private void mnuSearchByName(object sender, RoutedEventArgs e)
-        {
-            ClientNameSearchExample searchClientPage = new ClientNameSearchExample();
-            frame.NavigationService.Navigate(searchClientPage);
-        }
-       
-
-        private void mnuDueDateReport(object sender, RoutedEventArgs e)
-        {
-            DueDateReportPage report = new DueDateReportPage();
-            frame.NavigationService.Navigate(report);
-        }
-
-        private void mnuAddNewCompany(object sender, RoutedEventArgs e)
-        {
-            AddCompanyPage page = new AddCompanyPage();
-            frame.NavigationService.Navigate(page);
-        }
-
-        private void mnuViewCompanies(object sender, RoutedEventArgs e)
-        {
-            ViewCompanyPage page = new ViewCompanyPage();
-            frame.NavigationService.Navigate(page);
-        }
-
-        private void mnuAddNewAgent(object sender, RoutedEventArgs e)
-        {
-            AddAgentPage page = new AddAgentPage();
-            frame.NavigationService.Navigate(page);
-        }
-        
-
-        private void mnuAddNewProduct(object sender, RoutedEventArgs e)
-        {
-            AddProductPage page = new AddProductPage();
-            frame.NavigationService.Navigate(page);
-        }
-
-        private void mnuAddPayment(object sender, RoutedEventArgs e)
-        {
-            AddPaymentPage page = new AddPaymentPage();
-            frame.NavigationService.Navigate(page);
-        }
-
-        private void mnuAddBlank(object sender, RoutedEventArgs e)
-        {
-            AddBlankPage page = new AddBlankPage();
-            frame.NavigationService.Navigate(page);
-        }
-
         private void menu(object sender, RoutedEventArgs e)
         {
             object page;
@@ -120,31 +62,72 @@ namespace WpfApplication2
                     page = new ViewClientsPage();
                     frame.NavigationService.Navigate(page);
                     break;
+                case "AddNewPolicy":
+                    page = new AddPolicyPage();
+                    frame.NavigationService.Navigate(page);
+                    break;
+
+                case "AddNewBlank":
+                    page = new AddBlankPage();
+                    frame.NavigationService.Navigate(page);
+                    break;
+                case "ViewBlanks":
+                    page = new ViewBlankPage();
+                    frame.NavigationService.Navigate(page);
+                    break;
+
+                case "AddNewAgent":
+                    page = new AddAgentPage();
+                    frame.NavigationService.Navigate(page);
+                    break;
+
+                case "ViewAgents":
+                    page = new ViewAgentsPage();
+                    frame.NavigationService.Navigate(page);
+                    break;
+
+                case "AddPayment":
+                    page = new AddPaymentPage();
+                    frame.NavigationService.Navigate(page);
+                    break;
+
+                case "ViewPayment":
+                    page = new ViewPaymentPage();
+                    frame.NavigationService.Navigate(page);
+                    break;
+
+                case "AddNewProduct":
+                    page = new AddProductPage();
+                    frame.NavigationService.Navigate(page);
+                    break;
+
+                case "ViewProducts":
+                    page = new ViewProductsPage();
+                    frame.NavigationService.Navigate(page);
+                    break;
+
+                case "AddNewCompany":
+                    page = new AddCompanyPage();
+                    frame.NavigationService.Navigate(page);
+                    break;
+
+                case "ViewCompanies":
+                    page = new ViewCompanyPage();
+                    frame.NavigationService.Navigate(page);
+                    break;
+
+                case "DueDateReport":
+                    page = new DueDateReportPage();
+                    frame.NavigationService.Navigate(page); ;
+                    break;
+                    //
+
+                    //case "ViewIncomes":
+                    //    page = new  ();
+                    //    frame.NavigationService.Navigate(page);
+                    //    break;
+                    //
             }
-        }
-
-        private void mnuViewBlanks(object sender, RoutedEventArgs e)
-        {
-            ViewBlankPage page = new ViewBlankPage();
-            frame.NavigationService.Navigate(page);
-        }
-
-        private void mnuViewPayment(object sender, RoutedEventArgs e)
-        {
-            ViewPaymentPage page = new ViewPaymentPage();
-            frame.NavigationService.Navigate(page);
-        }
-
-        private void mnuViewProduct(object sender, RoutedEventArgs e)
-        {
-            ViewProductsPage page = new ViewProductsPage();
-            frame.NavigationService.Navigate(page);
-        }
-
-        private void mnuViewAgents(object sender, RoutedEventArgs e)
-        {
-            ViewAgentsPage page = new ViewAgentsPage();
-            frame.NavigationService.Navigate(page);
         }
 
         private void InitDB(object sender, RoutedEventArgs e)

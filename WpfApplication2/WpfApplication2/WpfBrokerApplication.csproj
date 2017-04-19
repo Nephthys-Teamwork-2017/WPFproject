@@ -81,14 +81,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="BlanksPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ClientNameSearchExamplee.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -96,12 +88,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="BlanksPage.xaml.cs">
-      <DependentUpon>BlanksPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ClientNameSearchExamplee.xaml.cs">
-      <DependentUpon>ClientNameSearchExamplee.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -143,10 +129,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Page2.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Pages\Payments\AddPaymentPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -164,14 +146,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Products\ViewProductsPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="PaymentsPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="PolicyPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -204,9 +178,6 @@
     <Compile Include="Pages\Due Date Report\DueDateReportPage.xaml.cs">
       <DependentUpon>DueDateReportPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Page2.xaml.cs">
-      <DependentUpon>Page2.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Pages\Payments\AddPaymentPage.xaml.cs">
       <DependentUpon>AddPaymentPage.xaml</DependentUpon>
     </Compile>
@@ -221,12 +192,6 @@
     </Compile>
     <Compile Include="Pages\Products\ViewProductsPage.xaml.cs">
       <DependentUpon>ViewProductsPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="PaymentsPage.xaml.cs">
-      <DependentUpon>PaymentsPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="PolicyPage.xaml.cs">
-      <DependentUpon>PolicyPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
