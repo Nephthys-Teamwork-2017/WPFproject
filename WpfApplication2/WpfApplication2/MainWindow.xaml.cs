@@ -17,6 +17,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfApplication2;
 using WpfApplication2.Pages.Agents;
+using WpfApplication2.Pages.Blanks;
 using WpfApplication2.Pages.Clients;
 using WpfApplication2.Pages.Companies;
 using WpfApplication2.Pages.Due_Date_Report;
@@ -104,6 +105,18 @@ namespace WpfApplication2
         private void mnuAddPayment(object sender, RoutedEventArgs e)
         {
             AddPaymentPage page = new AddPaymentPage();
+            frame.NavigationService.Navigate(page);
+        }
+
+        private void mnuAddBlank(object sender, RoutedEventArgs e)
+        {
+            AddBlankPage page = new AddBlankPage();
+            frame.NavigationService.Navigate(page);
+        }
+
+        private void mnuViewBlanks(object sender, RoutedEventArgs e)
+        {
+            ViewBlankPage page = new ViewBlankPage();
             frame.NavigationService.Navigate(page);
         }
 

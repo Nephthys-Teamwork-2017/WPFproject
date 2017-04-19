@@ -36,7 +36,16 @@ namespace Data.AutoMapperConfiguration
                     .ForMember(dto => dto.CompanyName, opt => opt.MapFrom(src => src.Company.Name));
 
 
-                
+                    cfg.CreateMap<Blank, BlankDTO>()
+                   .ForMember(dto => dto.AgentName, opt => opt.MapFrom(src => src.Agent.Name))
+                   .ForMember(dto => dto.PolicyNumber, opt => opt.MapFrom(src => src.Policy.Number.ToString()))
+                   .ForMember(dto => dto.ProductName, opt => opt.MapFrom(src => src.Product.Name))
+                   .ForMember(dto => dto.CompanyName, opt => opt.MapFrom(src => src.Company.Name));
+
+
+
+
+
 
                 }
 

@@ -1,4 +1,7 @@
-﻿using System;
+﻿using AutoMapper.QueryableExtensions;
+using Data.DTO;
+using Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +25,36 @@ namespace Data.Store
             using (var context = new BrokerDbContext())
             {
                 return context.Blanks.Where(x => x.IsDeleted == false && x.Number==Number).FirstOrDefault().Id;
+            }
+
+        }
+
+        public static IEnumerable<BlankDTO> GetAllBlanks()
+        {
+            using (var context = new BrokerDbContext())
+            {
+                return context.Blanks.Where(x => x.IsDeleted == false).ProjectTo<BlankDTO>().ToList();
+            }
+
+        }
+
+        public static bool AddBlank(Blank blank)
+        {
+            using (var context = new BrokerDbContext())
+            {
+                try
+                {
+                    context.Blanks.Add(blank);
+                    context.SaveChanges();
+                    return true;
+                }
+
+                catch
+                {
+                    return false;
+                }
+
+
             }
 
         }
