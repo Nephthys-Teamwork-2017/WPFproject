@@ -38,6 +38,16 @@ namespace Data.Store
 
         }
 
+        public static int GetAgentId(string Name)
+        {
+            using (var context = new BrokerDbContext())
+            {
+                return context.Agents.Where(x => x.IsDeleted == false && x.Name==Name).FirstOrDefault().Id;
+            }
+
+        }
+
+
 
     }
 }

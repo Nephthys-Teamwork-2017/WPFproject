@@ -40,6 +40,15 @@ namespace Data.Store
             }
         }
 
+        public static int GetCompanyId(string Name)
+        {
+            using (var context = new BrokerDbContext())
+            {
+                return context.Companies.Where(x => x.IsDeleted == false && x.Name==Name).FirstOrDefault().Id;
+            }
+        }
+
+
 
     }
 }

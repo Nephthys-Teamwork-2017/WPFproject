@@ -33,5 +33,42 @@ namespace Data.Store
             return ListDTO;
         }
 
+
+        public static IEnumerable<PaymentDTO> getAllPayments( )
+        {
+
+            using (var context = new BrokerDbContext())
+            {
+                var payments = context.Payments.Where(x => x.IsDeleted == false).ToList();
+                List<PaymentDTO> paymentDTOs = Mapper.Map<List<Payment>, List<PaymentDTO>>(payments);
+                return paymentDTOs;
+            }
+            
+        }
+
+        public static bool AddPayment(Payment payment)
+        {
+            using (var context = new BrokerDbContext())
+            {
+                try
+                {
+                    context.Payments.Add(payment);
+
+                    context.SaveChanges();
+
+                    return true;
+                }
+                catch
+                {
+
+                    return false;
+                }
+
+            }
+
+          
+        }
+
+
     }
 }

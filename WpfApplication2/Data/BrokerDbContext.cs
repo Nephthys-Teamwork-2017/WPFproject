@@ -66,6 +66,9 @@ namespace Data
                         .WithRequired(x => x.Company)
                         .WillCascadeOnDelete(false);
 
+            modelBuilder.Entity<Payment>()
+                .HasOptional(x => x.Blank)
+                .WithOptionalDependent(x => x.Payment);
 
 
             base.OnModelCreating(modelBuilder);

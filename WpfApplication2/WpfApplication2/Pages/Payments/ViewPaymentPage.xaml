@@ -1,0 +1,48 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApplication2.Pages.Payments"
+      xmlns:DTO="clr-namespace:Data.DTO;assembly=Data" x:Class="WpfApplication2.Pages.Payments.ViewPaymentPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="ViewPaymentPage">
+
+    <Page.Resources>
+        <CollectionViewSource x:Key="paymentDTOViewSource" d:DesignSource="{d:DesignInstance {x:Type DTO:PaymentDTO}, CreateList=True}"/>
+    </Page.Resources>
+
+    <Grid DataContext="{StaticResource paymentDTOViewSource}">
+
+        <DataGrid x:Name="paymentDTODataGrid" RowDetailsVisibilityMode="VisibleWhenSelected" ItemsSource="{Binding}" EnableRowVirtualization="True" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="agentNameColumn" Width="SizeToHeader" Header="Agent Name" Binding="{Binding AgentName}"/>
+                <DataGridTextColumn x:Name="blankNumberColumn" Width="SizeToHeader" Header="Blank Number" Binding="{Binding BlankNumber}"/>
+                <DataGridTextColumn x:Name="companyNameColumn" Width="SizeToHeader" Header="Company Name" Binding="{Binding CompanyName}"/>
+                <DataGridTemplateColumn x:Name="dateOfPaymentColumn" Width="SizeToHeader" Header="Date Of Payment">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <DatePicker SelectedDate="{Binding DateOfPayment, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn x:Name="dueDateColumn" Width="SizeToHeader" Header="Due Date">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <DatePicker SelectedDate="{Binding DueDate, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn x:Name="finalPriceColumn" Width="SizeToHeader" Header="Final Price" Binding="{Binding FinalPrice}"/>
+                <DataGridTextColumn x:Name="idColumn" Width="SizeToHeader" Header="Id" Binding="{Binding Id}"/>
+                <DataGridTextColumn x:Name="policyNumberColumn" Width="SizeToHeader" Header="Policy Number" Binding="{Binding PolicyNumber}"/>
+                <DataGridTextColumn x:Name="premiumColumn" Width="SizeToHeader" Header="Premium" Binding="{Binding Premium}"/>
+                <DataGridTextColumn x:Name="priceColumn" Width="SizeToHeader" Header="Price" Binding="{Binding Price}"/>
+                <DataGridTextColumn x:Name="statusColumn" Width="SizeToHeader" Header="Status" Binding="{Binding Status}"/>
+                <DataGridTextColumn x:Name="taxColumn" Width="SizeToHeader" Header="Tax" Binding="{Binding Tax}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Page>

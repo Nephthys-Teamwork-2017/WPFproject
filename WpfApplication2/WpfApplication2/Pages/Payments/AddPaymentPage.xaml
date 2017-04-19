@@ -1,0 +1,49 @@
+﻿<Page x:Class="WpfApplication2.Pages.Payments.AddPaymentPage"
+      xmlns:toolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Input.Toolkit"
+    
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApplication2.Pages.Payments"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="AddPaymentPage">
+
+    <Grid Background="AliceBlue" Margin="0,0,-550,0">
+        <DatePicker x:Name="DateOfPaymentPicker" HorizontalAlignment="Left" Margin="108,18,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label" Content="Date of Payment" HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Due Date" HorizontalAlignment="Left" Margin="35,50,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="DueDatePicker" HorizontalAlignment="Left" Margin="108,50,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="PolicyNumber" HorizontalAlignment="Left" Margin="18,92,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Premium" HorizontalAlignment="Left" Margin="35,130,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Tax" HorizontalAlignment="Left" Margin="37,174,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TaxTextBox" HorizontalAlignment="Left" Height="23" Margin="108,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102"/>
+        <Label x:Name="label5" Content="Price" HorizontalAlignment="Left" Margin="37,214,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label6" Content="FinalPrice" HorizontalAlignment="Left" Margin="270,17,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.417,-0.538"/>
+        <TextBox x:Name="StatusTextBox" HorizontalAlignment="Left" Height="23" Margin="355,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label7" Content="Status" HorizontalAlignment="Left" Margin="288,50,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="PremiumTextBox" HorizontalAlignment="Left" Height="23" Margin="108,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102"/>
+        <TextBox x:Name="PriceTextBox" HorizontalAlignment="Left" Height="26" Margin="108,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102"/>
+        <toolkit:AutoCompleteBox
+            x:Name="PolicyNumberTextBox"
+            FilterMode="ContainsOrdinal"
+      
+    ValueMemberPath="" Margin="108,92,0,182" HorizontalAlignment="Left" Width="102"
+    />
+        <TextBox x:Name="FinalPriceTextBox" HorizontalAlignment="Left" Height="23" Margin="355,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="AgentComboBox" HorizontalAlignment="Left" Margin="355,96,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label8" Content="Agent" HorizontalAlignment="Left" Margin="288,96,0,0" VerticalAlignment="Top"/>
+        <CheckBox Checked="CheckBoxChanged" Unchecked="CheckBoxChanged" x:Name="checkBox" Content="Blank" HorizontalAlignment="Left" Margin="355,141,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label9" Content="Blank Number" HorizontalAlignment="Left" Margin="255,174,0,0" VerticalAlignment="Top"/>
+        <toolkit:AutoCompleteBox
+            x:Name="BlankNumberTextBox"
+            FilterMode="ContainsOrdinal"
+            IsEnabled="False"
+    ValueMemberPath="" Margin="355,171,0,103" HorizontalAlignment="Left" Width="120"
+    />
+        <ComboBox x:Name="CompanyComboBox" HorizontalAlignment="Left" Margin="355,214,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label10" Content="Company" HorizontalAlignment="Left" Margin="270,214,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="AddButton" Content="Add Payment" HorizontalAlignment="Left" Margin="225,245,0,0" VerticalAlignment="Top" Width="95" Height="35" Click="AddButton_Click"/>
+    </Grid>
+</Page>

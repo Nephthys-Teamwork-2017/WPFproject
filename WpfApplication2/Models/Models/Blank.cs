@@ -34,7 +34,7 @@ namespace Models
 
         public virtual Policy Policy { get; set; }
 
-
+        public int? PaymentId { get; set; }
         public virtual Payment Payment { get; set; }
 
         public bool IsDeleted { get; set; } = false;

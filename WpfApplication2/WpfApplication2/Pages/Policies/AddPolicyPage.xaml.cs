@@ -113,7 +113,7 @@ namespace WpfApplication2.Pages.Policies
                     AgentId = agentId,
                     Notes = NotesTextBox.Text,
                     CompanyId = companyId,
-                    status=(Status)StatusComboBox.SelectedIndex
+                    Status=(Status)StatusComboBox.SelectedIndex
                 };
 
                 bool result=PolicyStore.AddPolicy(policy);

@@ -29,6 +29,15 @@ namespace Data.AutoMapperConfiguration
                     cfg.CreateMap<Product, ProductDTO>();
                     cfg.CreateMap<Customer, CustomerDTO>();
 
+                    cfg.CreateMap<Payment, PaymentDTO>()
+                    .ForMember(dto => dto.AgentName, opt => opt.MapFrom(src => src.Agent.Name))
+                    .ForMember(dto => dto.PolicyNumber, opt => opt.MapFrom(src => src.Policy.Number.ToString()))
+                    .ForMember(dto => dto.BlankNumber, opt => opt.MapFrom(src => src.Blank.Number))
+                    .ForMember(dto => dto.CompanyName, opt => opt.MapFrom(src => src.Company.Name));
+
+
+                
+
                 }
 
                );

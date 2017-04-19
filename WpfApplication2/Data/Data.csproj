@@ -67,6 +67,7 @@
     <Compile Include="DTO\CompanyDTO.cs" />
     <Compile Include="DTO\CustomerDTO.cs" />
     <Compile Include="DTO\DueDateReportDTO.cs" />
+    <Compile Include="DTO\PaymentDTO.cs" />
     <Compile Include="DTO\ProductDTO.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,6 +77,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="Store\AgentStore.cs" />
+    <Compile Include="Store\BlankStore.cs" />
     <Compile Include="Store\CompanyStore.cs" />
     <Compile Include="Store\CustomerStore.cs" />
     <Compile Include="Store\PaymentStore.cs" />
@@ -100,6 +102,8 @@
     <None Include="Properties\DataSources\Data.DTO.CompanyDTO.datasource" />
     <None Include="Properties\DataSources\Data.DTO.CustomerDTO.datasource" />
     <None Include="Properties\DataSources\Data.DTO.DueDateReportDTO.datasource" />
+    <None Include="Properties\DataSources\Data.DTO.PaymentDTO.datasource" />
+    <None Include="Properties\DataSources\Data.DTO.ProductDTO.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -29,6 +29,24 @@ namespace Data.Store
 
         }
 
+        public static IEnumerable<string> GetAllPolicyNumbers()
+        {
+            using (var context = new BrokerDbContext())
+            {
+                return context.Policies.Where(x => x.IsDeleted == false).Select(x=>x.Number.ToString()).ToList();
+            }
+
+        }
+
+        public static int GetAllPolicyIdByNumber(int Number)
+        {
+            using (var context = new BrokerDbContext())
+            {
+                return context.Policies.Where(x => x.IsDeleted == false && x.Number==Number).FirstOrDefault().Id;
+            }
+
+        }
+
 
     }
 }

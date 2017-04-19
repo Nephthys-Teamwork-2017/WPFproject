@@ -30,8 +30,8 @@
                     <MenuItem Header="_View Agents"   Click="mnuViewAgents" />
                 </MenuItem>
                 <MenuItem Header="_Payments">
-                    <MenuItem Header="_Add New Payment" />
-                    <MenuItem Header="_View Payments"  />
+                    <MenuItem Header="_Add New Payment" Click="mnuAddPayment" />
+                    <MenuItem Header="_View Payments" Click="mnuViewPayment" />
                 </MenuItem>
                 <MenuItem Header="_Products">
                     <MenuItem Header="_Add New Product" Click="mnuAddNewProduct" />

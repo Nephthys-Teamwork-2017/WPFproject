@@ -139,6 +139,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Payments\AddPaymentPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Payments\ViewPaymentPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Policies\AddPolicyPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -184,6 +192,12 @@
     </Compile>
     <Compile Include="Page2.xaml.cs">
       <DependentUpon>Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Payments\AddPaymentPage.xaml.cs">
+      <DependentUpon>AddPaymentPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Payments\ViewPaymentPage.xaml.cs">
+      <DependentUpon>ViewPaymentPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Policies\AddPolicyPage.xaml.cs">
       <DependentUpon>AddPolicyPage.xaml</DependentUpon>
@@ -242,7 +256,6 @@
   <ItemGroup>
     <Folder Include="Pages\Blanks\" />
     <Folder Include="Pages\Incomes\" />
-    <Folder Include="Pages\Payments\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="'$(SQLDBExtensionsRefPath)' != ''" />

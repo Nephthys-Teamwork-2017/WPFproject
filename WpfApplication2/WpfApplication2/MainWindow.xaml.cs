@@ -20,6 +20,7 @@ using WpfApplication2.Pages.Agents;
 using WpfApplication2.Pages.Clients;
 using WpfApplication2.Pages.Companies;
 using WpfApplication2.Pages.Due_Date_Report;
+using WpfApplication2.Pages.Payments;
 using WpfApplication2.Pages.Policies;
 using WpfApplication2.Pages.Products;
 
@@ -97,6 +98,18 @@ namespace WpfApplication2
         private void mnuAddNewProduct(object sender, RoutedEventArgs e)
         {
             AddProductPage page = new AddProductPage();
+            frame.NavigationService.Navigate(page);
+        }
+
+        private void mnuAddPayment(object sender, RoutedEventArgs e)
+        {
+            AddPaymentPage page = new AddPaymentPage();
+            frame.NavigationService.Navigate(page);
+        }
+
+        private void mnuViewPayment(object sender, RoutedEventArgs e)
+        {
+            ViewPaymentPage page = new ViewPaymentPage();
             frame.NavigationService.Navigate(page);
         }
 

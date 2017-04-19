@@ -10,8 +10,8 @@ namespace Models
 {
     public class Payment
     {
-        [Key]
-        [ForeignKey("Blank")]
+       
+        
         public int Id { get; set; }
         public DateTime DateOfPayment { get; set; }
         public DateTime DueDate { get; set; }
@@ -28,6 +28,8 @@ namespace Models
 
         public virtual Policy Policy { get; set; }
 
+        public int? BlankId { get; set; }
+        
         public virtual Blank Blank { get; set; }
         public int CompanyId { get; set; }
         public virtual Company Company { get; set; }
