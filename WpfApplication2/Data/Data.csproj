@@ -65,6 +65,7 @@
     </Compile>
     <Compile Include="BrokerDbContext.cs" />
     <Compile Include="DTO\AgentDTO.cs" />
+    <Compile Include="DTO\BlankDTO.cs" />
     <Compile Include="DTO\CompanyDTO.cs" />
     <Compile Include="DTO\CustomerDTO.cs" />
     <Compile Include="DTO\DueDateReportDTO.cs" />
@@ -102,6 +103,7 @@
     </None>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\Data.DTO.AgentDTO.datasource" />
+    <None Include="Properties\DataSources\Data.DTO.BlankDTO.datasource" />
     <None Include="Properties\DataSources\Data.DTO.CompanyDTO.datasource" />
     <None Include="Properties\DataSources\Data.DTO.CustomerDTO.datasource" />
     <None Include="Properties\DataSources\Data.DTO.DueDateReportDTO.datasource" />

@@ -27,5 +27,14 @@ namespace Data.Store
             }
 
         }
+
+        public static int getProductIdByName(string Name)
+        {
+            using (var context = new BrokerDbContext())
+            {
+                return context.Products.Where(x => x.IsDeleted == false && x.Name==Name).FirstOrDefault().Id;
+            }
+
+        }
     }
 }

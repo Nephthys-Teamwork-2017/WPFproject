@@ -1,0 +1,37 @@
+﻿<Page x:Class="WpfApplication2.Pages.Blanks.AddBlankPage"
+      xmlns:toolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Input.Toolkit"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApplication2.Pages.Blanks"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="AddBlankPage">
+
+    <Grid Background="AliceBlue" Margin="0,0,-125,0">
+        <Label x:Name="label" Content="BlankNumber" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Product" HorizontalAlignment="Left" Margin="35,79,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Status" HorizontalAlignment="Left" Margin="248,113,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Agent" HorizontalAlignment="Left" Margin="44,113,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="TakenDate" HorizontalAlignment="Left" Margin="224,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="IssueDate" HorizontalAlignment="Left" Margin="229,41,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label6" Content="PolicyNumber" HorizontalAlignment="Left" Margin="224,79,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label7" Content="Company" HorizontalAlignment="Left" Margin="25,44,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="BlankNumberTextBox" HorizontalAlignment="Left" Height="23" Margin="97,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox  SelectionChanged="LoadProducts" x:Name="CompanyComboBox" HorizontalAlignment="Left" Margin="97,45,0,0" VerticalAlignment="Top" Width="120"/>
+        <DatePicker x:Name="TakenDatePicker" HorizontalAlignment="Left" Margin="305,12,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="IssueDatePicker" HorizontalAlignment="Left" Margin="305,45,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="StatusTextBox" HorizontalAlignment="Left" Height="23" Margin="305,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102"/>
+        <ComboBox x:Name="AgentComboBox" HorizontalAlignment="Left" Margin="97,117,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="ProductComboBox" HorizontalAlignment="Left" Margin="97,83,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="AddBlankButton" Content="Add Blank" HorizontalAlignment="Left" Margin="160,170,0,0" VerticalAlignment="Top" Width="149" Height="35" Click="AddBlankButton_Click"/>
+        <toolkit:AutoCompleteBox
+            x:Name="PolicyNumberTextBox"
+            FilterMode="ContainsOrdinal"
+      
+    ValueMemberPath="" Margin="305,79,0,195" HorizontalAlignment="Left" Width="102"
+    />
+             
+    </Grid>
+</Page>

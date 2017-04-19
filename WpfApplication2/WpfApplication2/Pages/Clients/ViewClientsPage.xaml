@@ -15,7 +15,17 @@
 
     <Grid DataContext="{StaticResource customerDTOViewSource}">
 
-        <DataGrid x:Name="customerDTODataGrid" RowDetailsVisibilityMode="VisibleWhenSelected" Margin="0,0,-100,0" ItemsSource="{Binding}" EnableRowVirtualization="True" AutoGenerateColumns="False">
+        <DataGrid
+              x:Name="customerDTODataGrid"
+              RowDetailsVisibilityMode="VisibleWhenSelected" 
+              Margin="0,0,-100,0" ItemsSource="{Binding}" 
+              EnableRowVirtualization="True" 
+              AutoGenerateColumns="False"
+              RowEditEnding="CustomerDataGrid_RowEditEnding" 
+              AddingNewItem="CustomerDataGrid_AddingNewItem" 
+              PreviewKeyDown="CustomerDataGrid_PreviewKeyDown" 
+              BeginningEdit="CustomerDataGrid_BeginningEdit"
+            >
             <DataGrid.Columns>
                 <DataGridTextColumn x:Name="addressColumn" Width="SizeToHeader" Header="Address" Binding="{Binding Address}"/>
                 <DataGridTextColumn x:Name="emailColumn" Width="SizeToHeader" Header="Email" Binding="{Binding Email}"/>

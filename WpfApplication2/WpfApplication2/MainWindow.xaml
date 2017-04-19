@@ -22,8 +22,8 @@
                     <MenuItem Header="_Add New Policy" Click="mnuNewPolicy" />
                 </MenuItem>
                 <MenuItem Header="_Blanks">
-                    <MenuItem Header="_Add New Blank" />
-                    <MenuItem Header="_View Blanks"  />
+                    <MenuItem Header="_Add New Blank" Click="mnuAddBlank" />
+                    <MenuItem Header="_View Blanks" Click="mnuViewBlanks" />
                 </MenuItem>
                 <MenuItem Header="_Agents">
                     <MenuItem Header="_Add New Agent"  Click="mnuAddNewAgent" />

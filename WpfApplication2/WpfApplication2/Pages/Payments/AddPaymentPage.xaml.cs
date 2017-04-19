@@ -78,6 +78,8 @@ namespace WpfApplication2.Pages.Payments
 
             if (result == true)
                 MessageBox.Show("Payment Added!");
+
+
         }
     }
 }

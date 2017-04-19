@@ -31,6 +31,7 @@ namespace Models
         public int CompanyId { get; set; }
         public virtual Company Company { get; set; }
 
+        public int PolicyId { get; set; }
         public virtual Policy Policy { get; set; }
 
         public int? PaymentId { get; set; }

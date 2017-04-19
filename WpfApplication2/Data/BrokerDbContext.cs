@@ -72,6 +72,10 @@ namespace Data
                 .HasOptional(x => x.Blank)
                 .WithOptionalDependent(x => x.Payment);
 
+            modelBuilder.Entity<Blank>()
+                .HasRequired(x => x.Policy)
+                .WithMany(x => x.Blanks)
+                .WillCascadeOnDelete(false);
 
             base.OnModelCreating(modelBuilder);
         }

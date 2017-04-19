@@ -152,6 +152,7 @@ C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\De
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Payments\AddPaymentPage.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Payments\ViewPaymentPage.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Payments\ViewPaymentPage.baml
+<<<<<<< HEAD
 D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config
 D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
 D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
@@ -214,3 +215,9 @@ D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WpfApplication2\WpfApplication2\obj\D
 D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.g.resources
 D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
 D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WpfApplication2\WpfApplication2\obj\Debug\WpfBrokerApplication.csproj.GenerateResource.Cache
+=======
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Blanks\AddBlankPage.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Blanks\AddBlankPage.baml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Blanks\ViewBlankPage.g.cs
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Blanks\ViewBlankPage.baml
+>>>>>>> fcda2c698a90b5c0a366e49a965fd6d2e7d20866

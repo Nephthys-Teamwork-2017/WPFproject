@@ -115,6 +115,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Blanks\AddBlankPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Blanks\ViewBlankPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Clients\AddClientPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -174,6 +182,12 @@
     </Compile>
     <Compile Include="Pages\Agents\ViewAgentsPage.xaml.cs">
       <DependentUpon>ViewAgentsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Blanks\AddBlankPage.xaml.cs">
+      <DependentUpon>AddBlankPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Blanks\ViewBlankPage.xaml.cs">
+      <DependentUpon>ViewBlankPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Clients\AddClientPage.xaml.cs">
       <DependentUpon>AddClientPage.xaml</DependentUpon>
@@ -254,7 +268,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Pages\Blanks\" />
     <Folder Include="Pages\Incomes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
