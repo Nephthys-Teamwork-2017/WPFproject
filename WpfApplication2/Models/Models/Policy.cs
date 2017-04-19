@@ -35,7 +35,6 @@ namespace Models
 
         public DateTime IssueDate { get; set; }
         public DateTime StartDate { get; set; }
-        public DateTime DueDate { get; set; }
 
         public DateTime EndDate { get; set; }
       

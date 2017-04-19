@@ -43,7 +43,6 @@
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -85,7 +84,6 @@
     <Compile Include="Store\PaymentStore.cs" />
     <Compile Include="Store\PolicyStore.cs" />
     <Compile Include="Store\ProductStore.cs" />
-    <Compile Include="Utility\DatabaseInit.cs" />
     <Compile Include="Utility\SeedData.cs" />
   </ItemGroup>
   <ItemGroup>

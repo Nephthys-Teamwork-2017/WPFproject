@@ -38,6 +38,15 @@ namespace WpfApplication2.Pages.Payments
 
             BlankNumberTextBox.ItemsSource = BlankStore.GetAllBlankNumbers();
 
+            List<string> listStatus = new List<string>();
+
+            listStatus.Add("Paid");
+            listStatus.Add("Unpaid");
+            listStatus.Add("Cancelled");
+            
+            StatusComboBox.ItemsSource = listStatus;
+
+
         }
 
         private void CheckBoxChanged(object sender, RoutedEventArgs e)
@@ -69,7 +78,7 @@ namespace WpfApplication2.Pages.Payments
                 Premium=decimal.Parse(PremiumTextBox.Text),
                 Price=decimal.Parse(PriceTextBox.Text),
                 Tax=decimal.Parse(TaxTextBox.Text),
-               // Status=StatusTextBox.Text,
+                Status= (StatusP)StatusComboBox.SelectedIndex,
                 BlankId=blankId
                 
             };

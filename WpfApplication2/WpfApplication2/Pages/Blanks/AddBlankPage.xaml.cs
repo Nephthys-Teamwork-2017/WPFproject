@@ -31,6 +31,14 @@ namespace WpfApplication2.Pages.Blanks
             AgentComboBox.ItemsSource = AgentStore.GetAllAgents().Select(x => x.Name);
 
             PolicyNumberTextBox.ItemsSource = PolicyStore.GetAllPolicyNumbers();
+
+            List<string> listStatus = new List<string>();
+
+            listStatus.Add("Аvailable");
+            listStatus.Add("Used");
+            listStatus.Add("Cancelled");
+
+            StatusComboBox.ItemsSource = listStatus;
         }
 
         private void LoadProducts(object sender, SelectionChangedEventArgs e)
@@ -50,7 +58,7 @@ namespace WpfApplication2.Pages.Blanks
                  Number=PolicyNumberTextBox.Text,
                  IssueDate=DateTime.Parse(IssueDatePicker.Text),
                  TakenDate=DateTime.Parse(TakenDatePicker.Text),
-                 Status=StatusTextBox.Text,
+                 Status = (StatusB)StatusComboBox.SelectedIndex,
                  PolicyId = PolicyStore.GetAllPolicyIdByNumber(PolicyNumberTextBox.Text)
 
             };

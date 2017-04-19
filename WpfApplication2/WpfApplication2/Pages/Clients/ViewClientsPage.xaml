@@ -27,12 +27,12 @@
               BeginningEdit="CustomerDataGrid_BeginningEdit"
             >
             <DataGrid.Columns>
-                <DataGridTextColumn x:Name="addressColumn" Width="SizeToHeader" Header="Address" Binding="{Binding Address}"/>
-                <DataGridTextColumn x:Name="emailColumn" Width="SizeToHeader" Header="Email" Binding="{Binding Email}"/>
-                <DataGridTextColumn x:Name="idColumn" Width="SizeToHeader" Header="Id" Binding="{Binding Id}"/>
-                <DataGridTextColumn x:Name="nameColumn" Width="SizeToHeader" Header="Name" Binding="{Binding Name}"/>
-                <DataGridTextColumn x:Name="notesColumn" Width="SizeToHeader" Header="Notes" Binding="{Binding Notes}"/>
-                <DataGridTextColumn x:Name="phoneColumn" Width="SizeToHeader" Header="Phone" Binding="{Binding Phone}"/>
+                <DataGridTextColumn  IsReadOnly="True" x:Name="idColumn" Width="SizeToHeader" Header="Id" Binding="{Binding Id}"/>
+                <DataGridTextColumn  IsReadOnly="True" x:Name="nameColumn" Width="SizeToHeader" Header="Name" Binding="{Binding Name}"/>
+                <DataGridTextColumn x:Name="addressColumn" Width="SizeToHeader" Header="Address" Binding="{Binding Address, NotifyOnSourceUpdated=True,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn x:Name="emailColumn" Width="SizeToHeader" Header="Email" Binding="{Binding Email , NotifyOnSourceUpdated=True,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn x:Name="notesColumn" Width="SizeToHeader" Header="Notes" Binding="{Binding Notes , NotifyOnSourceUpdated=True,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn x:Name="phoneColumn" Width="SizeToHeader" Header="Phone" Binding="{Binding Phone , NotifyOnSourceUpdated=True,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
                 <DataGridTextColumn x:Name="statePersonalNumberColumn" Width="SizeToHeader" Header="State Personal Number" Binding="{Binding StatePersonalNumber}"/>
             </DataGrid.Columns>
         </DataGrid>

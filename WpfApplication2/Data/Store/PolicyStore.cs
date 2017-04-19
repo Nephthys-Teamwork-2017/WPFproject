@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Data.Store
 {
+
     public class PolicyStore
     {
         public static bool AddPolicy(Policy policy)
@@ -42,7 +43,7 @@ namespace Data.Store
         {
             using (var context = new BrokerDbContext())
             {
-                return context.Policies.Where(x => x.IsDeleted == false && x.Number == Number).FirstOrDefault().Id;
+                return context.Policies.Where(x => x.IsDeleted == false && x.Number==Number).FirstOrDefault().Id;
             }
 
         }

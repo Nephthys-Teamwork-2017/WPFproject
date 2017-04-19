@@ -75,7 +75,43 @@ namespace WpfApplication2.Pages.Clients
 
         private void CustomerDataGrid_RowEditEnding(object sender, DataGridRowEditEndingEventArgs e)
         {
-             
+            Customer cust;
+
+            CustomerDTO c = e.Row.DataContext as CustomerDTO;
+
+            if (c != null)
+            {
+                if (c.Id > 0)
+                {
+                    isInsert = false;
+                }
+                else
+                {
+                    isInsert = true;
+                }
+            }
+
+            if (!isInsert)
+            {
+                var InsertRecord = MessageBox.Show("Do you want to Update " + c.Name + "?", "Confirm", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+                if (InsertRecord == MessageBoxResult.Yes)
+                {
+                    cust = context.Customers.Where(x => x.Id == c.Id).FirstOrDefault();
+                    cust.Email = c.Email;
+                    cust.Address = c.Address;
+                    cust.Name = c.Name;
+                    cust.Phone = c.Name;
+                    cust.Notes = c.Notes;
+
+                    context.SaveChanges();
+
+                    customerDTODataGrid.ItemsSource = CustomerStore.GetAllCustomers();
+                }
+                else
+                    customerDTODataGrid.ItemsSource = CustomerStore.GetAllCustomers();
+            }
+
         }
 
 

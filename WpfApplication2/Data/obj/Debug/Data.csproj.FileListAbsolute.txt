@@ -1,0 +1,62 @@
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\Data.dll.config
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\Data.dll
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\Data.pdb
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\EntityFramework.dll
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\Models.dll
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\Models.pdb
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\EntityFramework.xml
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\obj\Debug\Data.dll
+c:\users\emilian\documents\visual studio 2015\Projects\InsuranceBrokerManagementSystem\Data\obj\Debug\Data.pdb
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\bin\Debug\Data.dll.config
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\bin\Debug\Data.dll
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\bin\Debug\Data.pdb
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.dll
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\bin\Debug\Models.dll
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\bin\Debug\Models.pdb
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.xml
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\obj\Debug\Data.dll
+C:\Users\D_Dimitrov\Desktop\New folder\WPFproject\WpfApplication2\Data\obj\Debug\Data.pdb
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\Data.dll.config
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\Data.dll
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\Data.pdb
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.dll
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\Models.dll
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\Models.pdb
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.xml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\obj\Debug\Data.dll
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\Data\obj\Debug\Data.pdb
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\Data\bin\Debug\Data.dll.config
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\Data\bin\Debug\Data.dll
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\Data\bin\Debug\Data.pdb
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.dll
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\Data\bin\Debug\Models.dll
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\Data\bin\Debug\Models.pdb
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.xml
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\Data\obj\Debug\Data.dll
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WPFproject\WPFproject\WpfApplication2\Data\obj\Debug\Data.pdb
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\Data.dll.config
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\Data.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\Data.pdb
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\AutoMapper.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\Models.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\Models.pdb
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\AutoMapper.xml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\obj\Debug\Data.dll
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\Data\obj\Debug\Data.pdb

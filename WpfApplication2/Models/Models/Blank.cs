@@ -11,6 +11,8 @@ namespace Models
     public class Blank
     {
 
+
+
         public int Id { get; set; }
         [Required]
         public string Number { get; set; }

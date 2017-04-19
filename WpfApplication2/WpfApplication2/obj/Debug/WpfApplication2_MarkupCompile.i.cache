@@ -4,26 +4,17 @@
 winexe
 C#
 .cs
-D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WpfApplication2\WpfApplication2\obj\Debug\
+C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\
 WpfApplication2
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
-D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WpfApplication2\WpfApplication2\App.xaml
-18-640323737
-
-261891165972
-25-369769802
-BlanksPage.xaml;ClientNameSearchExamplee.xaml;MainWindow.xaml;Pages\Agents\AddAgentPage.xaml;Pages\Agents\ViewAgentsPage.xaml;Pages\Clients\AddClientPage.xaml;Pages\Clients\ViewClientsPage.xaml;Pages\Companies\AddCompanyPage.xaml;Pages\Companies\ViewCompanyPage.xaml;Pages\Due Date Report\DueDateReportPage.xaml;Page2.xaml;Pages\Payments\AddPaymentPage.xaml;Pages\Payments\ViewPaymentPage.xaml;Pages\Policies\AddPolicyPage.xaml;Pages\Products\AddProductPage.xaml;Pages\Products\ViewProductsPage.xaml;PaymentsPage.xaml;PolicyPage.xaml;
-=======
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\App.xaml
 20-1110958280
 
 28662169588
 25-453887511
 BlanksPage.xaml;ClientNameSearchExamplee.xaml;MainWindow.xaml;Pages\Agents\AddAgentPage.xaml;Pages\Agents\ViewAgentsPage.xaml;Pages\Blanks\AddBlankPage.xaml;Pages\Blanks\ViewBlankPage.xaml;Pages\Clients\AddClientPage.xaml;Pages\Clients\ViewClientsPage.xaml;Pages\Companies\AddCompanyPage.xaml;Pages\Companies\ViewCompanyPage.xaml;Pages\Due Date Report\DueDateReportPage.xaml;Page2.xaml;Pages\Payments\AddPaymentPage.xaml;Pages\Payments\ViewPaymentPage.xaml;Pages\Policies\AddPolicyPage.xaml;Pages\Products\AddProductPage.xaml;Pages\Products\ViewProductsPage.xaml;PaymentsPage.xaml;PolicyPage.xaml;
->>>>>>> fcda2c698a90b5c0a366e49a965fd6d2e7d20866
 
-True
+False
 

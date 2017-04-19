@@ -15,7 +15,7 @@ namespace Data.Store
         {
            
 
-            var DueDateReport = context.Payments.Where(x => x.IsDeleted == false).OrderBy(x=>x.DateOfPayment).ThenBy(x=>x.Policy.EndDate).ToList();
+            var DueDateReport = context.Payments.Where(x => x.IsDeleted == false && x.Policy.Customer.IsDeleted==false).OrderBy(x=>x.DateOfPayment).ThenBy(x=>x.Policy.EndDate).ToList();
 
             List<DueDateReportDTO> DueDateReportDTOs = Mapper.Map<List<Payment>, List<DueDateReportDTO>>(DueDateReport);
 

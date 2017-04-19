@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Data.DTO
 {
+    
     public class BlankDTO
     {
         public int Id { get; set; }
@@ -14,7 +15,7 @@ namespace Data.DTO
         public string Number { get; set; }
 
        
-        public string Status { get; set; }
+        public StatusB Status { get; set; }
         public DateTime TakenDate { get; set; }
         public DateTime IssueDate { get; set; }
 

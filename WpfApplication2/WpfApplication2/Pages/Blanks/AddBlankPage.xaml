@@ -22,7 +22,6 @@
         <ComboBox  SelectionChanged="LoadProducts" x:Name="CompanyComboBox" HorizontalAlignment="Left" Margin="97,45,0,0" VerticalAlignment="Top" Width="120"/>
         <DatePicker x:Name="TakenDatePicker" HorizontalAlignment="Left" Margin="305,12,0,0" VerticalAlignment="Top"/>
         <DatePicker x:Name="IssueDatePicker" HorizontalAlignment="Left" Margin="305,45,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="StatusTextBox" HorizontalAlignment="Left" Height="23" Margin="305,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102"/>
         <ComboBox x:Name="AgentComboBox" HorizontalAlignment="Left" Margin="97,117,0,0" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="ProductComboBox" HorizontalAlignment="Left" Margin="97,83,0,0" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="AddBlankButton" Content="Add Blank" HorizontalAlignment="Left" Margin="160,170,0,0" VerticalAlignment="Top" Width="149" Height="35" Click="AddBlankButton_Click"/>
@@ -32,6 +31,7 @@
       
     ValueMemberPath="" Margin="305,79,0,195" HorizontalAlignment="Left" Width="102"
     />
-             
+        <ComboBox x:Name="StatusComboBox" HorizontalAlignment="Left" Margin="305,117,0,0" VerticalAlignment="Top" Width="102"/>
+
     </Grid>
 </Page>

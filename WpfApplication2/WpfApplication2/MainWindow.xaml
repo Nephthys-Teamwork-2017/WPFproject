@@ -13,8 +13,8 @@
                     <MenuItem Header="_For Period" Click="mnuDueDateReport" />
                 </MenuItem>
                 <MenuItem Header="_Clients">
-                    <MenuItem Header="_Add New Client" Click="mnuNewClient" />
-                    <MenuItem Header="_View All Clients" Click="mnuViewClient" />
+                    <MenuItem Name="AddNewClient" Header="_Add New Client" Click="menu" />
+                    <MenuItem Name="ViewClients" Header="_View All Clients" Click="menu" />
                     <MenuItem Header="_Search Client By Name" Click="mnuSearchByName" />
                 </MenuItem>
 
@@ -46,7 +46,7 @@
                     <MenuItem Header="_View Incomes"  />
                 </MenuItem>
                 <MenuItem Header="Utility">
-                    <MenuItem Header="Init and Seed Database" Click="InitDB" />
+                    <MenuItem Header="Init Database" Click="InitDB" />
                 </MenuItem>
 
 

@@ -1,6 +1,5 @@
 ﻿using Data;
 using Data.AutoMapperConfiguration;
-using Data.Utility;
 using Models;
 using System;
 using System.Collections.Generic;
@@ -47,17 +46,7 @@ namespace WpfApplication2
 
        
 
-        private void mnuNewClient(object sender, RoutedEventArgs e)
-        {
-            AddClientPage page = new AddClientPage();
-            frame.NavigationService.Navigate(page);
-        }
-
-        private void mnuViewClient(object sender, RoutedEventArgs e)
-        {
-            ViewClientsPage page = new ViewClientsPage();
-            frame.NavigationService.Navigate(page);
-        }
+       
 
         private void mnuNewPolicy(object sender, RoutedEventArgs e)
         {
@@ -115,6 +104,25 @@ namespace WpfApplication2
             frame.NavigationService.Navigate(page);
         }
 
+        private void menu(object sender, RoutedEventArgs e)
+        {
+            object page;
+
+            MenuItem mnu = (MenuItem)sender;
+            var Name = mnu.Name;
+            switch (Name)
+            {
+                case "AddNewClient":
+                    page = new AddClientPage();
+                    frame.NavigationService.Navigate(page);
+                    break;
+                case "ViewClients":
+                    page = new ViewClientsPage();
+                    frame.NavigationService.Navigate(page);
+                    break;
+            }
+        }
+
         private void mnuViewBlanks(object sender, RoutedEventArgs e)
         {
             ViewBlankPage page = new ViewBlankPage();
@@ -141,7 +149,13 @@ namespace WpfApplication2
 
         private void InitDB(object sender, RoutedEventArgs e)
         {
-            DatabaseInit.InitDB();
+            using (var context = new BrokerDbContext())
+            {
+                context.Database.Initialize(true);
+                MessageBoxResult result = MessageBox.Show("Database Initialized!", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
+
+            }
+
         }
     }
 }
