@@ -7,17 +7,16 @@ using System.Threading.Tasks;
 
 namespace Models
 {
+    public enum StatusB { Аvailable, Used, Cancelled }
     public class Blank
     {
-
-
 
         public int Id { get; set; }
         [Required]
         public string Number { get; set; }
 
         [Required]
-        public string Status { get; set; }
+        public StatusB Status { get; set; }
         public DateTime TakenDate { get; set; }
         public DateTime IssueDate { get; set; }
 

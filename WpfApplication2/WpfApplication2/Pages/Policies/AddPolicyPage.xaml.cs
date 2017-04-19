@@ -100,7 +100,7 @@ namespace WpfApplication2.Pages.Policies
 
                 Policy policy = new Policy()
                 {
-                    Number = int.Parse(PolicyNumberTextBox.Text),
+                    Number = PolicyNumberTextBox.Text,
                     ProductId = productId,
                     IssueDate = DateTime.Parse(issueDatePicker.Text),
                     StartDate = DateTime.Parse(startDatePicker.Text),

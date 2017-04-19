@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WpfApplication2\WpfApplication2\obj\Debug\
 WpfApplication2
 none
 false
 DEBUG;TRACE
-C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\App.xaml
+D:\SOFTUNI\DBFUNDAMENTALS\ADVANSED\PROJECT\WpfApplication2\WpfApplication2\App.xaml
 18-640323737
 
-261465030580
-25-453887511
+261891165972
+25-369769802
 BlanksPage.xaml;ClientNameSearchExamplee.xaml;MainWindow.xaml;Pages\Agents\AddAgentPage.xaml;Pages\Agents\ViewAgentsPage.xaml;Pages\Clients\AddClientPage.xaml;Pages\Clients\ViewClientsPage.xaml;Pages\Companies\AddCompanyPage.xaml;Pages\Companies\ViewCompanyPage.xaml;Pages\Due Date Report\DueDateReportPage.xaml;Page2.xaml;Pages\Payments\AddPaymentPage.xaml;Pages\Payments\ViewPaymentPage.xaml;Pages\Policies\AddPolicyPage.xaml;Pages\Products\AddProductPage.xaml;Pages\Products\ViewProductsPage.xaml;PaymentsPage.xaml;PolicyPage.xaml;
 
 True

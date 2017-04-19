@@ -42,7 +42,7 @@ namespace WpfApplication2
                 Blank blank = new Blank()
                 {
                    Number = textBox.Text,
-                   Status = textBox3.Text,
+                   //Status = textBox3.Text,
                    TakenDate = DateTime.Now,
                    
 

@@ -2,10 +2,11 @@ using Models;
 
 namespace Data
 {
-    using Models.Models;
+    using Models;
     using System;
     using System.Data.Entity;
     using System.Linq;
+    using Utility;
 
     public class BrokerDbContext : DbContext
     {
@@ -13,7 +14,7 @@ namespace Data
         public BrokerDbContext()
             : base("name=BrokerDbContext")
         {
-            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<BrokerDbContext>());
+            Database.SetInitializer(new SeedData());
         }
 
        
@@ -27,6 +28,7 @@ namespace Data
         public virtual DbSet<Policy> Policies{ get; set; }
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<CompanyProdCom> CompanyProdComs { get; set; }
+        public virtual DbSet<AgentProdCom> AgentProdComs { get; set; }
 
 
 

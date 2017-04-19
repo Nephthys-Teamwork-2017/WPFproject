@@ -38,11 +38,11 @@ namespace Data.Store
 
         }
 
-        public static int GetAllPolicyIdByNumber(int Number)
+        public static int GetAllPolicyIdByNumber(string Number)
         {
             using (var context = new BrokerDbContext())
             {
-                return context.Policies.Where(x => x.IsDeleted == false && x.Number==Number).FirstOrDefault().Id;
+                return context.Policies.Where(x => x.IsDeleted == false && x.Number == Number).FirstOrDefault().Id;
             }
 
         }

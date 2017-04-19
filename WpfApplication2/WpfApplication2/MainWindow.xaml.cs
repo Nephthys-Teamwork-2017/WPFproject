@@ -1,5 +1,6 @@
 ﻿using Data;
 using Data.AutoMapperConfiguration;
+using Data.Utility;
 using Models;
 using System;
 using System.Collections.Generic;
@@ -127,13 +128,7 @@ namespace WpfApplication2
 
         private void InitDB(object sender, RoutedEventArgs e)
         {
-            using (var context = new BrokerDbContext())
-            {
-                context.Database.Initialize(true);
-                MessageBoxResult result = MessageBox.Show("Database Initialized!", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
-
-            }
-
+            DatabaseInit.InitDB();
         }
     }
 }

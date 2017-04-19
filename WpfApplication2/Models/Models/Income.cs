@@ -18,6 +18,7 @@ namespace Models
         public decimal AgentIncome { get; set; }
         public string Notes { get; set; }
         public virtual Product Product { get; set; }
+        
         public int PaymentId { get; set; }
         public int AgentId { get; set; }
 

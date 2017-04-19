@@ -17,7 +17,7 @@ namespace Models
             this.Payments = new HashSet<Payment>();
         }
         public int Id { get; set; }
-        public int Number { get; set; }
+        public string Number { get; set; }
 
         public int CustomerId { get; set; }
         public virtual Customer Customer { get; set; }
@@ -35,6 +35,7 @@ namespace Models
 
         public DateTime IssueDate { get; set; }
         public DateTime StartDate { get; set; }
+        public DateTime DueDate { get; set; }
 
         public DateTime EndDate { get; set; }
       

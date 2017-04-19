@@ -38,7 +38,7 @@ namespace WpfApplication2
             {
                 Policy policy = new Policy()
                 {
-                    Number = 12,
+                    Number = "12",
                     ProductId = 1,
                     IssueDate = new DateTime(2001, 1, 1),
                     StartDate = new DateTime(1999, 2, 2),

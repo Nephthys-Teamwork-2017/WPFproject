@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
+    public enum StatusP { Paid, Unpaid, Cancelled }
     public class Payment
     {
        
@@ -19,7 +20,7 @@ namespace Models
         public decimal Tax { get; set; }
         public decimal Price { get; set; }
         public decimal FinalPrice { get; set; }
-        public string Status { get; set; }
+        public StatusP Status { get; set; }
         public int AgentId { get; set; }
         public virtual Agent Agent { get; set; }
 

@@ -64,12 +64,12 @@ namespace WpfApplication2.Pages.Payments
                 DueDate = DateTime.Parse(DueDatePicker.Text),
                 AgentId= AgentStore.GetAgentId(AgentComboBox.SelectedValue.ToString()),
                 CompanyId=CompanyStore.GetCompanyId(CompanyComboBox.SelectedValue.ToString()),
-                PolicyId=PolicyStore.GetAllPolicyIdByNumber(int.Parse(PolicyNumberTextBox.Text)),
+                PolicyId=PolicyStore.GetAllPolicyIdByNumber(PolicyNumberTextBox.Text),
                 FinalPrice=decimal.Parse(FinalPriceTextBox.Text),
                 Premium=decimal.Parse(PremiumTextBox.Text),
                 Price=decimal.Parse(PriceTextBox.Text),
                 Tax=decimal.Parse(TaxTextBox.Text),
-                Status=StatusTextBox.Text,
+               // Status=StatusTextBox.Text,
                 BlankId=blankId
                 
             };
