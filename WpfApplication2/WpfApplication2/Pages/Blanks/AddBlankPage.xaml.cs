@@ -51,7 +51,7 @@ namespace WpfApplication2.Pages.Blanks
                  IssueDate=DateTime.Parse(IssueDatePicker.Text),
                  TakenDate=DateTime.Parse(TakenDatePicker.Text),
                  Status=StatusTextBox.Text,
-                 PolicyId = PolicyStore.GetAllPolicyIdByNumber(int.Parse(PolicyNumberTextBox.Text))
+                 PolicyId = PolicyStore.GetAllPolicyIdByNumber(PolicyNumberTextBox.Text)
 
             };
 

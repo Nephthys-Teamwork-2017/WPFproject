@@ -34,33 +34,33 @@ namespace WpfApplication2
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            using (var context = new BrokerDbContext())
-            {
-                Policy policy = new Policy()
-                {
-                    Number = 12,
-                    ProductId = 1,
-                    IssueDate = new DateTime(2001, 1, 1),
-                    StartDate = new DateTime(1999, 2, 2),
-                    EndDate = new DateTime(2007, 3, 3),
-                    PolicyPremium = 1912.12m,
-                    Tax = 1912,
-                    Price = 1913,
-                    InsuredId = 1,
-                    CustomerId = 1,
-                    AgentId = 1,
-                    Notes = "tralala",
-                    CompanyId = 1
+            //using (var context = new BrokerDbContext())
+            //{
+            //    Policy policy = new Policy()
+            //    {
+            //        Number = 12,
+            //        ProductId = 1,
+            //        IssueDate = new DateTime(2001, 1, 1),
+            //        StartDate = new DateTime(1999, 2, 2),
+            //        EndDate = new DateTime(2007, 3, 3),
+            //        PolicyPremium = 1912.12m,
+            //        Tax = 1912,
+            //        Price = 1913,
+            //        InsuredId = 1,
+            //        CustomerId = 1,
+            //        AgentId = 1,
+            //        Notes = "tralala",
+            //        CompanyId = 1
 
 
-                };
+            //    };
 
-                context.Policies.Add(policy);
-                context.SaveChanges();
+            //    context.Policies.Add(policy);
+            //    context.SaveChanges();
 
-                MessageBox.Show("policy added");
+            //    MessageBox.Show("policy added");
 
-            }
+            //}
 
         }
     }

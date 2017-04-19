@@ -38,7 +38,7 @@ namespace Data.Store
 
         }
 
-        public static int GetAllPolicyIdByNumber(int Number)
+        public static int GetAllPolicyIdByNumber(string Number)
         {
             using (var context = new BrokerDbContext())
             {

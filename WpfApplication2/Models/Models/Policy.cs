@@ -17,20 +17,20 @@ namespace Models
             this.Payments = new HashSet<Payment>();
         }
         public int Id { get; set; }
-        public int Number { get; set; }
+        public string Number { get; set; }
 
-        public int CustomerId { get; set; }
+        public int? CustomerId { get; set; }
         public virtual Customer Customer { get; set; }
-        public int InsuredId { get; set; }
+        public int? InsuredId { get; set; }
         public virtual Customer Insured { get; set; }
 
-        public int AgentId { get; set; }
+        public int? AgentId { get; set; }
         public virtual Agent Agent { get; set; }
 
-        public int ProductId { get; set; }
+        public int? ProductId { get; set; }
         public virtual Product Product { get; set; }
 
-        public int CompanyId { get; set; }
+        public int? CompanyId { get; set; }
         public virtual Company Company { get; set; }
 
         public DateTime IssueDate { get; set; }
