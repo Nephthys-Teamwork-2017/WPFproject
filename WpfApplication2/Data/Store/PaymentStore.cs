@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace Data.Store
 {
@@ -39,17 +40,35 @@ namespace Data.Store
 
         public static bool AddPayment(Payment payment)
         {
+             
             using (var context = new BrokerDbContext())
             {
-                try
+                
                 {
                     context.Payments.Add(payment);
 
                     context.SaveChanges();
 
+
+                    var income2 = new Income
+                    {
+                        AgentId = 1,
+                        PaymentId = 1,
+                        Product = context.Products.FirstOrDefault(),
+                        AgentIncome = 1928.5m,
+                        OfficeIncome = 1912.34m,
+                        TotalIncome = 1938.84m,
+                        Payment = context.Payments.FirstOrDefault(),
+                        Id=123
+                    };
+
+                    context.Incomes.Add(income2);
+                    
+                    context.SaveChanges();
+
                     return true;
                 }
-                catch
+                
                 {
 
                     return false;

@@ -297,6 +297,7 @@ namespace Data.Migrations
                 TotalIncome = 36.84m,
                 Payment = payment1
             };
+
             var income2 = new Income
             {
                 AgentId = etGabi.Id,
@@ -318,6 +319,7 @@ namespace Data.Migrations
                 TotalIncome = 40.84m,
                 Payment = payment3
             };
+
             context.Incomes.Add(income1);
             context.Incomes.Add(income2);
             context.Incomes.Add(income3);

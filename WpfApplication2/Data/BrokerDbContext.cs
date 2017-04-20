@@ -77,6 +77,10 @@ namespace Data
                 .WithMany(x => x.Blanks)
                 .WillCascadeOnDelete(false);
 
+            modelBuilder.Entity<Payment>()
+                .HasOptional(x => x.Income)
+                .WithOptionalDependent(x => x.Payment);
+
             base.OnModelCreating(modelBuilder);
         }
 
