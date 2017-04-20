@@ -64,6 +64,7 @@
     </Compile>
     <Compile Include="BrokerDbContext.cs" />
     <Compile Include="DTO\AgentDTO.cs" />
+    <Compile Include="DTO\AgentsByPoliciesDTO.cs" />
     <Compile Include="DTO\BlankDTO.cs" />
     <Compile Include="DTO\CompanyDTO.cs" />
     <Compile Include="DTO\CustomerDTO.cs" />
@@ -81,6 +82,7 @@
     <Compile Include="Store\BlankStore.cs" />
     <Compile Include="Store\CompanyStore.cs" />
     <Compile Include="Store\CustomerStore.cs" />
+    <Compile Include="Store\IncomeStore.cs" />
     <Compile Include="Store\PaymentStore.cs" />
     <Compile Include="Store\PolicyStore.cs" />
     <Compile Include="Store\ProductStore.cs" />

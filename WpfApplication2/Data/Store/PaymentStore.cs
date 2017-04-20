@@ -43,6 +43,8 @@ namespace Data.Store
             {
                 try
                 {
+                    //if (payment.Status == StatusP.Paid)
+                    //    IncomeStore.GenerateIncome(payment);
                     context.Payments.Add(payment);
 
                     context.SaveChanges();

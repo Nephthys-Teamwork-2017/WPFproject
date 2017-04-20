@@ -29,23 +29,11 @@ D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproj
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.xml
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.xml
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfBrokerApplication.csprojResolveAssemblyReference.cache
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\BlanksPage.g.cs
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\ClientNameSearchExamplee.g.cs
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page1.g.cs
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page2.g.cs
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PaymentsPage.g.cs
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PolicyPage.g.cs
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.lref
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\BlanksPage.baml
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\ClientNameSearchExamplee.baml
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page1.baml
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Page2.baml
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PaymentsPage.baml
-D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\PolicyPage.baml
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.g.resources
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
 D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\WpfBrokerApplication.csproj.GenerateResource.Cache
@@ -146,3 +134,35 @@ C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\De
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Blanks\AddBlankPage.baml
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Blanks\ViewBlankPage.g.cs
 C:\Users\ADMIN\Desktop\Project\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Blanks\ViewBlankPage.baml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\AutoMapper.dll
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\bin\Debug\AutoMapper.xml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Agents\AddAgentPage.g.cs
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Agents\ViewAgentsPage.g.cs
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Blanks\AddBlankPage.g.cs
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Blanks\ViewBlankPage.g.cs
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Clients\AddClientPage.g.cs
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Clients\ViewClientsPage.g.cs
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\AddCompanyPage.g.cs
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\ViewCompanyPage.g.cs
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Due Date Report\DueDateReportPage.g.cs
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Payments\AddPaymentPage.g.cs
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Payments\ViewPaymentPage.g.cs
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Policies\AddPolicyPage.g.cs
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Products\AddProductPage.g.cs
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Products\ViewProductsPage.g.cs
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Agents\AddAgentPage.baml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Agents\ViewAgentsPage.baml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Blanks\AddBlankPage.baml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Blanks\ViewBlankPage.baml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Clients\AddClientPage.baml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Clients\ViewClientsPage.baml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\AddCompanyPage.baml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Companies\ViewCompanyPage.baml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Due Date Report\DueDateReportPage.baml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Payments\AddPaymentPage.baml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Payments\ViewPaymentPage.baml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Policies\AddPolicyPage.baml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Products\AddProductPage.baml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Products\ViewProductsPage.baml
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Due Date Report\AgentsByPolicyCount.g.cs
+D:\Soft Uni\Databases Advanced - Entity Framework\TeamProject\WPFProject\WPFproject\WpfApplication2\WpfApplication2\obj\Debug\Pages\Due Date Report\AgentsByPolicyCount.baml

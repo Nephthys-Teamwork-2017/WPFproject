@@ -10,13 +10,15 @@ namespace Models
 {
     public class Income
     {
-        [Key]
-        [ForeignKey("Payment")]
+
+
         public int Id { get; set; }
         public decimal TotalIncome { get; set; }
         public decimal OfficeIncome { get; set; }
         public decimal AgentIncome { get; set; }
         public string Notes { get; set; }
+
+
         public virtual Product Product { get; set; }
         public int PaymentId { get; set; }
         public int AgentId { get; set; }
@@ -25,4 +27,6 @@ namespace Models
 
         public bool IsDeleted { get; set; } = false;
     }
+
+
 }

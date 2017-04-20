@@ -125,6 +125,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Due Date Report\AgentsByPolicyCount.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Due Date Report\DueDateReportPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -175,6 +179,9 @@
     <Compile Include="Pages\Companies\ViewCompanyPage.xaml.cs">
       <DependentUpon>ViewCompanyPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Due Date Report\AgentsByPolicyCount.xaml.cs">
+      <DependentUpon>AgentsByPolicyCount.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Due Date Report\DueDateReportPage.xaml.cs">
       <DependentUpon>DueDateReportPage.xaml</DependentUpon>
     </Compile>
@@ -211,6 +218,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\Data.DTO.AgentsByPoliciesDTO.datasource" />
     <None Include="Properties\DataSources\Data.DTO.DueDateReportDTO.datasource" />
     <None Include="Properties\DataSources\Models.Customer.datasource" />
     <None Include="Properties\Settings.settings">

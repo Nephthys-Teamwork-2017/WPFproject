@@ -9,8 +9,9 @@
     <Grid>
         <DockPanel>
             <Menu DockPanel.Dock="Top">
-                <MenuItem Header="_Due Dates Report">
-                    <MenuItem Name="DueDateReport"  Header="_For Period" Click="menu" />
+                <MenuItem Header="_Reports">
+                    <MenuItem Name="DueDateReport"  Header="Due Dates Report" Click="menu" />
+                    <MenuItem Name="agentsPolicyCount"  Header="Agents by policy count" Click="menu" />
                 </MenuItem>
                 <MenuItem Header="_Clients">
                     <MenuItem Name="AddNewClient" Header="_Add New Client" Click="menu" />

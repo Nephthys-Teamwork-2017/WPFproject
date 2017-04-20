@@ -39,6 +39,8 @@ namespace WpfApplication2
 
             AutoMapperConfiguration.Configure();
 
+            var context = new BrokerDbContext();
+            context.Database.Initialize(true);
             InitializeComponent();
            
 
@@ -118,6 +120,11 @@ namespace WpfApplication2
 
                 case "DueDateReport":
                     page = new DueDateReportPage();
+                    frame.NavigationService.Navigate(page); ;
+                    break;
+
+                case "agentsPolicyCount":
+                    page = new AgentsByPolicyCount();
                     frame.NavigationService.Navigate(page); ;
                     break;
                     //

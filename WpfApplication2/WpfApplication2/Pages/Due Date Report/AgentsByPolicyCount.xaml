@@ -1,0 +1,26 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApplication2.Pages.Due_Date_Report"
+      xmlns:DTO="clr-namespace:Data.DTO;assembly=Data" x:Class="WpfApplication2.Pages.Due_Date_Report.AgentsByPolicyCount"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="AgentsByPolicyCount">
+
+    <Page.Resources>
+        <CollectionViewSource x:Key="agentsByPoliciesDTOViewSource" d:DesignSource="{d:DesignInstance {x:Type DTO:AgentsByPoliciesDTO}, CreateList=True}"/>
+    </Page.Resources>
+
+    <Grid DataContext="{StaticResource agentsByPoliciesDTOViewSource}">
+
+        <DataGrid x:Name="agentsByPoliciesDTODataGrid" RowDetailsVisibilityMode="VisibleWhenSelected" Margin="0,0,-109,100" ItemsSource="{Binding}" EnableRowVirtualization="True" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="agentNameColumn" Width="SizeToHeader" Header="Agent Name" Binding="{Binding AgentName}"/>
+                <DataGridTextColumn x:Name="policiesCountColumn" Width="SizeToHeader" Header="Policies Count" Binding="{Binding PoliciesCount}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Page>
